@@ -12,7 +12,7 @@
 | Projeto de Pesquisa / IC | Atlas Global — Sistema Inteligente de Rotas com Teoria dos Grafos |
 | Orientador(a) | Profa. Dra. Andréa Ono Sakai |
 | Data de entrega desta etapa | `[]` |
-| Integrantes do grupo | Gabriel Nascimento de Souza (RA 39130819); Lucas Marins de Souza Oliveira (RA 47992603); Cauan Gonçalves de Jesus (RA `[não informado no projeto ATLAS]`) |
+| Integrantes do grupo | Vinicius da Silva; Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira; Murilo Santiago; Guilherme Da Macena`) |
 
 ---
 
