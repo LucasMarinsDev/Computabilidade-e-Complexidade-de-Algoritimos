@@ -69,7 +69,7 @@ Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e explor
 | Tema aprovado pelo orientador? | `[11/08]` |
 | Observações ou ajustes solicitados pelo orientador | `[11/08]` |
 
-*Observação: a documentação do Atlas identifica a orientadora da disciplina (Profa. Dra. Andréa Ono Sakai, Teoria dos Grafos), mas não traz registro de data, aprovação formal ou ajustes solicitados para a etapa de escolha do tema.*
+*Observação: foi solicitado e acordado pelo grupo a remoção do bfs.*
 
 ---
 
@@ -123,11 +123,11 @@ Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e explor
 
 - [x] Tema delimitado e redigido em 1-2 frases
 - [x] Justificativa de relevância escrita
-- [ ] Viabilidade avaliada pelo grupo *(3 dos 4 critérios puderam ser sustentados com evidências do repositório Atlas; "tempo disponível" depende de avaliação do grupo)*
-- [ ] Verificação preliminar de originalidade realizada *(não há registro disso no Atlas)*
-- [ ] Tema validado com o orientador *(não há registro de data/aprovação no Atlas)*
-- [ ] Contribuição individual de cada integrante registrada *(não há registro disso no Atlas)*
-- [ ] Quadro-resumo de participação preenchido (soma = 100%) *(não há registro disso no Atlas)*
+- [x] Viabilidade avaliada pelo grupo *(3 dos 4 critérios puderam ser sustentados com evidências do repositório Atlas; "tempo disponível" depende de avaliação do grupo)*
+- [x] Verificação preliminar de originalidade realizada 
+- [x] Tema validado com o orientador 
+- [ ] Contribuição individual de cada integrante registrada 
+- [ ] Quadro-resumo de participação preenchido (soma = 100%)
 
 ---
 
