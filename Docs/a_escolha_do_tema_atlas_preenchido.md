@@ -66,10 +66,8 @@ Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e explor
 | Campo | Informação |
 |---|---|
 | Data da conversa/validação | `[11/08]` |
-| Tema aprovado pelo orientador? | `[11/08]` |
-| Observações ou ajustes solicitados pelo orientador | `[11/08]` |
-
-*Observação: foi solicitado e acordado pelo grupo a remoção do bfs.*
+| Tema aprovado pelo orientador? | `[Sim]` |
+| Observações ou ajustes solicitados pelo orientador | `[foi solicitado e acordado pelo grupo a remoção do bfs]` |
 
 ---
 
