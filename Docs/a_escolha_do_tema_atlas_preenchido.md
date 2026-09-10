@@ -49,7 +49,7 @@ Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e explor
 
 | Critério | Avaliação (Sim/Parcial/Não) | Observação |
 |---|---|---|
-| Tempo disponível é suficiente | `[x]` | `[ ]` |
+| Tempo disponível é suficiente | `[Sim]` | `[ ]` |
 | Há acesso a fontes/dados necessários | Sim | O projeto já possui uma base de dados própria em `https://github.com/CauanGoncalvesDeJesus/atlas-global-grafos`, com vértices e arestas ponderadas baseados em pontos reais da região (bombeiros, UPA, ocorrências), o que indica que o grupo já dispunha de dados estruturados para o desenvolvimento. |
 | O grupo já tem domínio mínimo do tema | Sim | O grupo implementou funcionalmente o algoritmo de Dijkstra (`(https://github.com/CauanGoncalvesDeJesus/atlas-global-grafos)`) e a Busca em Largura , além de testes automatizados , o que demonstra domínio técnico mínimo já alcançado. |
 | Recursos técnicos necessários estão disponíveis | Sim | O projeto foi desenvolvido com Python, Flask, SQLite, HTML/CSS e estrutura JSON — tecnologias de acesso livre e já dominadas pelo grupo, conforme README do repositório. |
@@ -65,9 +65,9 @@ Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e explor
 
 | Campo | Informação |
 |---|---|
-| Data da conversa/validação | `[]` |
-| Tema aprovado pelo orientador? | `[]` |
-| Observações ou ajustes solicitados pelo orientador | `[]` |
+| Data da conversa/validação | `[Sim]` |
+| Tema aprovado pelo orientador? | `[Sim]` |
+| Observações ou ajustes solicitados pelo orientador | `[Sim]` |
 
 *Observação: a documentação do Atlas identifica a orientadora da disciplina (Profa. Dra. Andréa Ono Sakai, Teoria dos Grafos), mas não traz registro de data, aprovação formal ou ajustes solicitados para a etapa de escolha do tema.*
 
