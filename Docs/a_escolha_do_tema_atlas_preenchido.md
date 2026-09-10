@@ -112,8 +112,9 @@ Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e explor
 |---|---|---|
 | Gabriel Nascimento de Souza | `[preencher]` | `[preencher]` |
 | Lucas Marins de Souza Oliveira | `[preencher]` | `[preencher]` |
-| Vinicius  | `[preencher]` | `[preencher]` |
-
+| Vinicius da Silva| `[preencher]` | `[preencher]` |
+| Murilo Santiago| `[preencher]` | `[preencher]` |
+| Guilherme Da Macena| `[preencher]` | `[preencher]` |
 *A soma das porcentagens deve ser igual a 100%. Divergências de percepção sobre a participação devem ser discutidas em grupo antes do envio — o orientador pode solicitar esclarecimentos individuais em caso de disparidade relevante.*
 
 ---
