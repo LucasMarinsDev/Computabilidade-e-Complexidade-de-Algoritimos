@@ -13,8 +13,8 @@
 | Projeto de Pesquisa / IC | Atlas Global — Sistema Inteligente de Rotas com Teoria dos Grafos |
 | Orientador(a) | Profa. Dra. Andréa Ono Sakai |
 | Data de entrega desta etapa | `[não informada no projeto ATLAS — preencher com a data real do grupo]` |
-| Integrantes do grupo | Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira; Cauan Gonçalves de Jesus; Vinicius da Silva; Murilo Santiago; Guilherme Da Macena |
-| Tema (da etapa "a") | Modelagem de um sistema inteligente de rotas baseado em teoria dos grafos, utilizando os algoritmos de Dijkstra e Busca em Largura (BFS) para calcular caminhos mínimos e apoiar operações de busca e resgate, deslocamento urbano e logística em situações de emergência. |
+| Integrantes do grupo | Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira; Vinicius da Silva; Murilo Santiago; Guilherme Da Macena |
+| Tema (da etapa "a") | Modelagem de um sistema inteligente de rotas baseado em teoria dos grafos, utilizando os algoritmos de Dijkstra para calcular caminhos mínimos e apoiar operações de busca e resgate, deslocamento urbano e logística em situações de emergência. |
 
 ## PARTE 1 — DEFINIR O OBJETIVO GERAL
 
@@ -22,14 +22,14 @@
 
 **Pergunta:** Qual foi o tema específico que o grupo definiu?
 
-> Resposta: O grupo definiu como tema específico a modelagem de um sistema inteligente de rotas baseado em teoria dos grafos, utilizando os algoritmos de Dijkstra e Busca em Largura (BFS) para calcular caminhos de menor custo entre pontos estratégicos, com aplicação em operações de busca e resgate, deslocamento urbano e logística de emergência (projeto Atlas Global).
+> Resposta: O grupo definiu como tema específico a modelagem de um sistema inteligente de rotas baseado em teoria dos grafos, utilizando os algoritmos de Dijkstra para calcular caminhos de menor custo entre pontos estratégicos, com aplicação em operações de busca e resgate, deslocamento urbano e logística de emergência (projeto Atlas Global).
 
 ### 1.2 Passo a passo para chegar ao objetivo geral
 
 **Passo 1 — Delimitação do tema**
 Delimitem o tema específico por área, tempo, espaço ou aplicação.
 
-> Resposta: O tema foi delimitado por **aplicação**: partindo da área ampla de Teoria dos Grafos e algoritmos de caminho mínimo, o grupo restringiu o escopo a um sistema de rotas em grafo ponderado (Dijkstra + BFS) voltado especificamente a operações de busca e resgate e apoio logístico em situações de emergência, em que pontos estratégicos (bases de apoio, hospitais/UPA, áreas de desastre, pontos de resgate) são representados como vértices e os custos de deslocamento (tempo, distância, dificuldade do trajeto) são representados como pesos das arestas, com dados reais de uma região (Mogi das Cruzes/SP) usados como base do projeto.
+> Resposta: O tema foi delimitado por **aplicação**: partindo da área ampla de Teoria dos Grafos e algoritmos de caminho mínimo, o grupo restringiu o escopo a um sistema de rotas em grafo ponderado (Dijkstra) voltado especificamente a operações de busca e resgate e apoio logístico em situações de emergência, em que pontos estratégicos (bases de apoio, hospitais/UPA, áreas de desastre, pontos de resgate) são representados como vértices e os custos de deslocamento (tempo, distância, dificuldade do trajeto) são representados como pesos das arestas, com dados reais de uma região (Mogi das Cruzes/SP) usados como base do projeto.
 
 **Passo 2 — Formulação da problemática**
 Transformem o tema em uma pergunta que expresse o problema de pesquisa.
@@ -43,7 +43,7 @@ Reescrevam a pergunta como uma afirmação, usando um verbo no infinitivo.
 
 *Exemplo:* "Analisar os principais impactos da árvore de decisão em IA para definir estratégias de marketing para segmentação de clientes."
 
-> Resposta: Desenvolver um sistema inteligente de rotas baseado em teoria dos grafos, aplicando os algoritmos de Dijkstra e Busca em Largura (BFS) para calcular o caminho de menor custo entre pontos estratégicos, com o propósito de apoiar operações de busca e resgate, deslocamento urbano e logística em situações de emergência, analisando suas limitações de desempenho e complexidade computacional frente a alternativas como A*, Bellman-Ford e Floyd-Warshall.
+> Resposta: Desenvolver um sistema inteligente de rotas baseado em teoria dos grafos, aplicando os algoritmos de Dijkstra  para calcular o caminho de menor custo entre pontos estratégicos, com o propósito de apoiar operações de busca e resgate, deslocamento urbano e logística em situações de emergência, analisando suas limitações de desempenho e complexidade computacional frente a alternativas como A*, Bellman-Ford e Floyd-Warshall.
 
 **Passo 4 — Ajustes finais**
 Revisem o objetivo geral seguindo os critérios abaixo:
@@ -68,7 +68,7 @@ Revisem o objetivo geral seguindo os critérios abaixo:
 
 **2) Qual o objetivo geral?**
 
-> Resposta: Desenvolver um sistema inteligente de rotas baseado em teoria dos grafos, aplicando os algoritmos de Dijkstra e Busca em Largura (BFS) para calcular o caminho de menor custo entre pontos estratégicos, com o propósito de apoiar operações de busca e resgate, deslocamento urbano e logística em situações de emergência, analisando suas limitações de desempenho e complexidade computacional frente a alternativas como A*, Bellman-Ford e Floyd-Warshall.
+> Resposta: Desenvolver um sistema inteligente de rotas baseado em teoria dos grafos, aplicando os algoritmos de Dijkstra para calcular o caminho de menor custo entre pontos estratégicos, com o propósito de apoiar operações de busca e resgate, deslocamento urbano e logística em situações de emergência, analisando suas limitações de desempenho e complexidade computacional frente a alternativas como A*, Bellman-Ford e Floyd-Warshall.
 
 ---
 
@@ -78,7 +78,7 @@ Revisem o objetivo geral seguindo os critérios abaixo:
 
 Copiem aqui o objetivo geral definido na Parte 1 (deve conceituar os assuntos abordados no tema).
 
-> Resposta: Desenvolver um sistema inteligente de rotas baseado em teoria dos grafos, aplicando os algoritmos de Dijkstra e Busca em Largura (BFS) para calcular o caminho de menor custo entre pontos estratégicos, com o propósito de apoiar operações de busca e resgate, deslocamento urbano e logística em situações de emergência, analisando suas limitações de desempenho e complexidade computacional frente a alternativas como A*, Bellman-Ford e Floyd-Warshall.
+> Resposta: Desenvolver um sistema inteligente de rotas baseado em teoria dos grafos, aplicando os algoritmos de Dijkstra para calcular o caminho de menor custo entre pontos estratégicos, com o propósito de apoiar operações de busca e resgate, deslocamento urbano e logística em situações de emergência, analisando suas limitações de desempenho e complexidade computacional frente a alternativas como A*, Bellman-Ford e Floyd-Warshall.
 
 ### 2.2 Assuntos da pesquisa
 
@@ -94,9 +94,8 @@ Escrevam de 4 a 5 assuntos que serão abordados na pesquisa.
 **Assuntos do grupo:**
 1. Resposta: Conceituar teoria dos grafos e grafos ponderados (dirigidos/não-dirigidos, pesos, conectividade)
 2. Resposta: Conceituar o algoritmo de Dijkstra e suas variações/otimizações para cálculo de caminho mínimo
-3. Resposta: Conceituar a Busca em Largura (BFS) e sua aplicação na verificação de alcançabilidade entre vértices
-4. Resposta: Analisar a modelagem de uma área de operação (bases, ocorrências, pontos de resgate) como grafo ponderado aplicado a busca e resgate e logística de emergência
-5. Resposta: Comparar o desempenho e a complexidade computacional do Dijkstra frente a alternativas como A*, Bellman-Ford e Floyd-Warshall *(opcional)*
+3. Resposta: Analisar a modelagem de uma área de operação (bases, ocorrências, pontos de resgate) como grafo ponderado aplicado a busca e resgate e logística de emergência
+4. Resposta: Comparar o desempenho e a complexidade computacional do Dijkstra frente a alternativas como A*, Bellman-Ford e Floyd-Warshall *(opcional)*
 
 ### 2.3 Estrutura básica do artigo
 
@@ -113,7 +112,7 @@ Definam a estrutura do artigo, incluindo introdução e considerações finais.
 
 **Estrutura do grupo:**
 - Introdução
-- Resposta: Conceituar teoria dos grafos, grafos ponderados e os algoritmos de Dijkstra e BFS
+- Resposta: Conceituar teoria dos grafos, grafos ponderados e os algoritmos de Dijkstra
 - Resposta: Descrever a modelagem do problema (vértices, arestas, pesos) aplicada à busca e resgate e à logística de emergência
 - Resposta: Apresentar a arquitetura e a implementação do sistema Atlas Global (leitura do grafo, execução do Dijkstra, exibição da rota)
 - Resposta: Analisar o desempenho e as limitações do Dijkstra frente a alternativas como A*, Bellman-Ford e Floyd-Warshall
@@ -136,7 +135,7 @@ Classifiquem os objetivos específicos em **Conceituais** e **Técnicos**.
 
 - **Objetivos Conceituais**
   - Resposta: Conceituar grafos ponderados e não-dirigidos e suas propriedades (vértices, arestas, pesos, conectividade)
-  - Resposta: Conceituar o algoritmo de Dijkstra e a Busca em Largura (BFS)
+  - Resposta: Conceituar o algoritmo de Dijkstra 
 
 - **Objetivos Técnicos**
   - Resposta: Modelar a área de operação (bases de apoio, hospitais/UPA, áreas de desastre, pontos de resgate) como grafo ponderado, representando pontos estratégicos como vértices e custos de deslocamento (tempo, distância, dificuldade do trajeto) como pesos das arestas
