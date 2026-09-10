@@ -29,7 +29,7 @@
 **Passo 1 — Delimitação do tema**
 Delimitem o tema específico por área, tempo, espaço ou aplicação.
 
-> Resposta: O tema foi delimitado por **aplicação**: partindo da área ampla de Teoria dos Grafos e algoritmos de caminho mínimo, o grupo restringiu o escopo a um sistema de rotas em grafo ponderado (Dijkstra) voltado especificamente a operações de busca e resgate e apoio logístico em situações de emergência, em que pontos estratégicos (bases de apoio, hospitais/UPA, áreas de desastre, pontos de resgate) são representados como vértices e os custos de deslocamento (tempo, distância, dificuldade do trajeto) são representados como pesos das arestas, com dados reais de uma região (Mogi das Cruzes/SP) usados como base do projeto.
+> Resposta: O tema foi delimitado pelo critério de aplicação como critério principal e espaço (Mogi das Cruzes) como recorte secundário para validação dos dados: partindo da área ampla de Teoria dos Grafos e algoritmos de caminho mínimo, o grupo restringiu o escopo a um sistema de rotas em grafo ponderado (Dijkstra) voltado especificamente a operações de busca e resgate e apoio logístico em situações de emergência — essa é a aplicação que delimita o tema. Nesse contexto, pontos estratégicos (bases de apoio, hospitais/UPA, áreas de desastre, pontos de resgate) são representados como vértices e os custos de deslocamento (tempo, distância, dificuldade do trajeto) são representados como pesos das arestas, com dados reais de uma região (Mogi das Cruzes/SP) usados como base do projeto.
 
 **Passo 2 — Formulação da problemática**
 Transformem o tema em uma pergunta que expresse o problema de pesquisa.
@@ -139,7 +139,7 @@ Classifiquem os objetivos específicos em **Conceituais** e **Técnicos**.
 
 - **Objetivos Técnicos**
   - Resposta: Modelar a área de operação (bases de apoio, hospitais/UPA, áreas de desastre, pontos de resgate) como grafo ponderado, representando pontos estratégicos como vértices e custos de deslocamento (tempo, distância, dificuldade do trajeto) como pesos das arestas
-  - Resposta: Implementar e validar o algoritmo de Dijkstra para o cálculo da rota de menor custo entre origem e destino, utilizando a Busca em Largura (BFS) para verificar previamente a alcançabilidade entre os pontos
+  - Resposta: Implementar e validar o algoritmo de Dijkstra para o cálculo da rota de menor custo entre origem e destino, verificando previamente a alcançabilidade entre os pontos por meio da própria execução do algoritmo
   - Resposta: Analisar as limitações de desempenho e complexidade computacional do Dijkstra frente a alternativas como A*, Bellman-Ford e Floyd-Warshall *(opcional)*
 
 ---
@@ -152,5 +152,3 @@ Classifiquem os objetivos específicos em **Conceituais** e **Técnicos**.
 - [x] Foram listados de 4 a 5 assuntos do artigo
 - [x] A estrutura do artigo foi definida (introdução, desenvolvimento, considerações finais)
 - [x] Os objetivos específicos foram classificados em Conceituais e Técnicos
-
-
