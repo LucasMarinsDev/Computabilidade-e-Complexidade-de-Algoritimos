@@ -1,6 +1,8 @@
 # Etapa (b) — Levantamento Bibliográfico
 
-> **Como preencher:** este documento deve ser preenchido **em conjunto pelo grupo**, mas com registro individualizado da contribuição de cada integrante em cada passo. Substitua os campos entre `[ ]` pelas informações do seu grupo. Não apague as instruções em itálico — elas ajudam na avaliação do orientador.
+> **Como preencher:** este documento deve ser preenchido **em conjunto pelo grupo**, mas com registro individualizado da contribuição de cada integrante em cada passo. *Não apague as instruções em itálico — elas ajudam na avaliação do orientador.*
+>
+> **Legenda desta versão (pós-parecer):** itens marcados como **PENDENTE** dependem de trabalho real que só o grupo pode registrar (execução das buscas, contagens, datas, tempo dedicado, evidências e percentuais). Nenhum desses dados foi inventado. Preencha-os somente com o que de fato foi feito.
 
 ---
 
@@ -11,9 +13,9 @@
 | Curso / Disciplina | Ciência da Computação / Teoria dos Grafos |
 | Projeto de Pesquisa / IC | Atlas Global — Sistema Inteligente de Rotas com Teoria dos Grafos |
 | Orientador(a) | Profa. Dra. Andréa Ono Sakai |
-| Data de entrega desta etapa | `01/09/2026` |
+| Data de entrega desta etapa | Entrega original: 01/09/2026 · Reenvio após parecer: até 20/09/2026 |
 | Integrantes do grupo | Vinicius da Silva; Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira; Murilo Santiago; Guilherme Da Macena |
-| Tema (da etapa "a") | Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e exploração de conectividade — especificamente o algoritmo de Dijkstra (busca de caminho de menor custo em grafos ponderados) |
+| Tema (da etapa "a") | Algoritmo de Dijkstra (caminho de menor custo em grafos ponderados) aplicado ao roteamento de emergência (busca e resgate, recorte Mogi das Cruzes), com foco em análise bibliográfica de complexidade computacional |
 
 ---
 
@@ -24,9 +26,9 @@
 **1.1 Problema/pergunta de pesquisa (versão de trabalho)**
 *Ainda não precisa ser a versão final (isso vem na etapa "c"), mas deve orientar a busca desta fase.*
 
-> Como o algoritmo de Dijkstra e suas variações/otimizações podem ser aplicados no desenvolvimento de sistemas inteligentes de recomendação de rotas em grafos de grande escala (ex.: redes viárias e mapas urbanos), e quais são suas principais limitações de desempenho e complexidade computacional frente a alternativas como A*, Bellman-Ford e Floyd-Warshall?
+> Segundo a literatura dos últimos dez anos (e obras fundamentais), quais são a complexidade computacional e os limites de desempenho do algoritmo de Dijkstra e de suas principais otimizações (filas de prioridade/heaps, *contraction hierarchies*) quando aplicado ao roteamento de emergência em redes viárias de grande escala?
 
-> *Nota: esta é a versão de trabalho da Fase de planejamento. Recomendamos revisar/refinar junto com o orientador antes de consolidar a versão definitiva na etapa "c".*
+*Observação de escopo:* A*, Bellman-Ford e Floyd-Warshall entram **apenas como referência de comparação de complexidade**, não como foco da revisão. O foco é um algoritmo principal (Dijkstra) e métricas de complexidade. Isso atende à orientação de recortar o tema e de tratar esta etapa como **análise bibliográfica**, e não como desenvolvimento de sistema. BFS foi retirado do escopo, conforme orientação recebida.
 
 **1.2 Conceitos-chave e sinônimos**
 *Liste os conceitos centrais da pergunta e seus sinônimos, em português e inglês.*
@@ -37,8 +39,10 @@
 | Grafos ponderados | grafo com pesos, rede ponderada, grafo direcionado | weighted graph, directed graph, weighted network |
 | Otimização de rotas | planejamento de rotas, roteamento inteligente, sistema de navegação | route planning, route optimization, intelligent routing, navigation system |
 | Complexidade computacional | eficiência algorítmica, desempenho de algoritmos | computational complexity, algorithm efficiency, time complexity |
+| Roteamento de emergência | busca e resgate, despacho de ambulâncias, resposta a emergências | emergency routing, emergency response, ambulance routing, search and rescue |
+| Otimizações do Dijkstra | fila de prioridade, heap de Fibonacci, hierarquias de contração | priority queue, Fibonacci heap, contraction hierarchies, bidirectional search |
 
-*Responsável por este passo: `[Vinicius da Silva]`*
+*Responsável por este passo: Vinicius da Silva*
 
 ---
 
@@ -48,10 +52,13 @@
 
 | Nº | String de busca | Base(s) em que será usada | Elaborada por |
 |---|---|---|---|
-| 1 | `("Dijkstra" OR "Dijkstra's algorithm") AND ("shortest path" OR "shortest-path" OR "minimum path")` | IEEE Xplore; ACM Digital Library | `[Gabriel Nascimento de Souza]` |
-| 2 | `("shortest path algorithm*" OR "route optimization" OR "intelligent routing") AND ("graph theory" OR "weighted graph") AND ("efficiency" OR "computational complexity")` | Scopus; Google Scholar | `[Lucas Marins de Souza Oliveira]` |
-| 3 | `("algoritmo de Dijkstra" OR "caminho mínimo") AND ("otimização de rotas" OR "roteamento inteligente" OR "sistema de navegação")` | Portal de Periódicos CAPES | `[Murilo Santiago]` |
-| 4 | `("Dijkstra" AND ("A*" OR "Bellman-Ford" OR "Floyd-Warshall")) AND ("comparison" OR "comparative study" OR "performance evaluation")` | IEEE Xplore; Scopus | `[Guilherme Da Macena]` |
+| 1 | `("Dijkstra" OR "Dijkstra's algorithm") AND ("shortest path" OR "shortest-path" OR "minimum path")` | IEEE Xplore; ACM Digital Library | Gabriel Nascimento de Souza |
+| 2 | `("shortest path algorithm*" OR "route optimization" OR "intelligent routing") AND ("graph theory" OR "weighted graph") AND ("efficiency" OR "computational complexity")` | Scopus | Lucas Marins de Souza Oliveira |
+| 3 | `("algoritmo de Dijkstra" OR "caminho mínimo") AND ("otimização de rotas" OR "roteamento inteligente" OR "sistema de navegação")` | Portal de Periódicos CAPES | Murilo Santiago |
+| 4 | `("Dijkstra" AND ("A*" OR "Bellman-Ford" OR "Floyd-Warshall")) AND ("comparison" OR "comparative study" OR "performance evaluation")` | IEEE Xplore; Scopus | Guilherme Da Macena |
+| 5 *(nova, alinhada ao recorte de emergência)* | `("Dijkstra" OR "shortest path") AND ("emergency routing" OR "emergency response" OR "ambulance routing" OR "search and rescue")` | IEEE Xplore; Scopus | A definir pelo grupo |
+
+*Ajuste feito:* a string 2 citava o Google Scholar, que não consta entre as bases escolhidas no Passo 3. Foi mantida apenas no Scopus para manter a coerência entre os passos. A string 5 foi adicionada porque as strings 1–4 não continham nenhum termo de emergência, e o recorte do tema exige isso.
 
 ---
 
@@ -61,28 +68,29 @@
 
 | Base de dados | Por que foi escolhida | Responsável pela busca nesta base |
 |---|---|---|
-| IEEE Xplore | Base de referência em Ciência da Computação e Engenharia, com forte cobertura de algoritmos, redes e sistemas de roteamento/navegação. | `[Lucas Marins de Souza Oliveira]` |
-| ACM Digital Library | Principal base da área de Computação, indexando conferências e periódicos relevantes sobre estruturas de dados e algoritmos de grafos. | `[Lucas Marins de Souza Oliveira]` |
-| Scopus | Ampla cobertura multidisciplinar, útil para localizar aplicações do algoritmo em áreas correlatas (logística, GIS, robótica). | `[Gabriel Nascimento]` |
-| Portal de Periódicos CAPES | Acesso institucional gratuito e agregador de diversas bases (incluindo IEEE e Scopus), além de produção nacional em português sobre o tema. | `[Gabriel Nascimento]` |
-| 
+| IEEE Xplore | Base de referência em Ciência da Computação e Engenharia, com forte cobertura de algoritmos, redes e sistemas de roteamento/navegação. | Lucas Marins de Souza Oliveira |
+| ACM Digital Library | Principal base da área de Computação, indexando conferências e periódicos relevantes sobre estruturas de dados e algoritmos de grafos. | Lucas Marins de Souza Oliveira |
+| Scopus | Ampla cobertura multidisciplinar, útil para localizar aplicações do algoritmo em áreas correlatas (logística, GIS, robótica, emergência). | Gabriel Nascimento de Souza |
+| Portal de Periódicos CAPES | Acesso institucional gratuito e agregador de diversas bases (incluindo IEEE e Scopus), além de produção nacional em português sobre o tema. | Gabriel Nascimento de Souza |
+
+*Ajuste feito:* foi removida uma linha incompleta que estava no final da tabela. O limite de 4 bases foi respeitado.
 
 ---
 
 ### Passo 4 — Critérios de inclusão e exclusão
 
 **Critérios de inclusão:**
-- Artigos publicados nos últimos 10 anos (2016–2026), salvo obras clássicas/fundamentais (ex.: o artigo original de Dijkstra, 1959, e trabalhos seminais de complexidade)
+- Artigos publicados nos últimos 10 anos (2016–2026), salvo obras clássicas/fundamentais (ex.: Dijkstra, 1959; Hart, Nilsson e Raphael, 1968; Fredman e Tarjan, 1987; Geisberger et al., 2008 — trabalhos seminais de complexidade e de otimização de roteamento)
 - Revisados por pares (periódicos ou anais de conferência indexados)
 - Publicados em português ou inglês
 - Disponíveis na íntegra (texto completo, via acesso institucional ou aberto)
-- Abordam diretamente o algoritmo de Dijkstra, suas variações/otimizações, ou comparações com outros algoritmos de caminho mínimo
+- Abordam diretamente o algoritmo de Dijkstra, suas variações/otimizações, ou comparações de complexidade com outros algoritmos de caminho mínimo
 
 **Critérios de exclusão:**
 - Resumos (abstracts) sem texto completo disponível
 - Duplicatas entre bases
 - Artigos fora do escopo (ex.: uso do termo "Dijkstra" apenas como citação secundária, sem foco no algoritmo)
-- Não revisados por pares (blogs, posts não acadêmicos, materiais didáticos informais)
+- Não revisados por pares (blogs, posts não acadêmicos, *preprints* sem publicação posterior, materiais didáticos informais)
 - Trabalhos de divulgação sem contribuição técnica ou científica clara
 
 *Definidos em conjunto por: Vinicius da Silva; Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira; Murilo Santiago; Guilherme Da Macena*
@@ -91,6 +99,7 @@
 
 ## FASE 2 — Execução da Busca e Triagem
 
+> **PENDENTE (Fase 2 inteira):** os campos abaixo só podem ser preenchidos depois que as buscas forem executadas de verdade nas bases. Não estimar nem inventar números. Registre exatamente o que cada base devolveu, com a data.
 
 ### Passo 5 — Execução das buscas e registro dos resultados
 
@@ -98,16 +107,21 @@
 
 | Base | String usada (nº) | Data da busca | Nº de resultados | Executada por |
 |---|---|---|---|---|
-| IEEE Xplore | 1 | `[dd/mm/aaaa]` | `[preencher após execução]` | `[Nome]` |
-| ACM Digital Library | 1 | `[dd/mm/aaaa]` | `[preencher após execução]` | `[Nome]` |
-| Scopus | 2 | `[dd/mm/aaaa]` | `[preencher após execução]` | `[Nome]` |
-| Portal CAPES | 3 | `[dd/mm/aaaa]` | `[preencher após execução]` | `[Nome]` |
-| IEEE Xplore / Scopus | 4 | `[dd/mm/aaaa]` | `[preencher após execução]` | `[Nome]` |
+| IEEE Xplore | 1 | PENDENTE | PENDENTE | PENDENTE (Passo 3 indica Lucas) |
+| ACM Digital Library | 1 | PENDENTE | PENDENTE | PENDENTE (Passo 3 indica Lucas) |
+| Scopus | 2 | PENDENTE | PENDENTE | PENDENTE (Passo 3 indica Gabriel) |
+| Portal CAPES | 3 | PENDENTE | PENDENTE | PENDENTE (Passo 3 indica Gabriel) |
+| IEEE Xplore | 4 | PENDENTE | PENDENTE | PENDENTE |
+| Scopus | 4 | PENDENTE | PENDENTE | PENDENTE |
+| IEEE Xplore | 5 | PENDENTE | PENDENTE | PENDENTE |
+| Scopus | 5 | PENDENTE | PENDENTE | PENDENTE |
 
-**Total de resultados brutos (soma de todas as buscas):** `[preencher após execução]`
+*(A string 4 foi separada por base para que cada busca tenha sua própria contagem.)*
 
-**Gerenciador de referências utilizado:** `[ex.: Zotero, Mendeley — recomenda-se Zotero por ser gratuito e ter plugin de captura de páginas]`
-**Formato de exportação:** `[BibTeX / RIS / CSV]`
+**Total de resultados brutos (soma de todas as buscas):** PENDENTE
+
+**Gerenciador de referências utilizado:** Zotero *(sugerido: gratuito e com plugin de captura; confirme se é o que o grupo usou)*
+**Formato de exportação:** BibTeX *(sugerido; confirme)*
 
 ---
 
@@ -117,17 +131,18 @@
 
 | Item de controle | Quantidade |
 |---|---|
-| Total de resultados antes da triagem | `[]` |
-| Duplicatas removidas | `[]` |
-| Classificados como "Incluir" | `[]` |
-| Classificados como "Excluir" | `[]` |
-| Classificados como "Dúvida" | `[]` |
+| Total de resultados antes da triagem | PENDENTE |
+| Duplicatas removidas | PENDENTE |
+| Classificados como "Incluir" | PENDENTE |
+| Classificados como "Excluir" | PENDENTE |
+| Classificados como "Dúvida" | PENDENTE |
 
 *A triagem detalhada, artigo por artigo, deve ser registrada na planilha de controle do projeto (aba "Triagem de Artigos"). Aqui, registre apenas o resumo quantitativo.*
 
-**Como as dúvidas foram resolvidas?** *(ex.: discussão em grupo, consulta ao orientador)*
+**Como as dúvidas foram resolvidas?**
+Protocolo definido: (1) discussão em reunião de grupo; (2) persistindo a dúvida, decisão por votação simples entre os integrantes; (3) em caso de empate ou dúvida sobre pertinência ao tema, consulta à orientadora. *Registrar data da reunião e artigos discutidos: PENDENTE.*
 
-*Responsável(is) por esta triagem: `[Nome(s)]`*
+*Responsável(is) por esta triagem: Lucas Marins de Souza Oliveira; Murilo Santiago*
 
 ---
 
@@ -137,15 +152,16 @@
 
 | Item de controle | Quantidade |
 |---|---|
-| Total de artigos que entraram nesta filtragem | `[]` |
-| Aprovados (conjunto definitivo para fichamento) | `[]` |
-| Excluídos nesta etapa | `[]` |
+| Total de artigos que entraram nesta filtragem | PENDENTE |
+| Aprovados (conjunto definitivo para fichamento) | PENDENTE (meta: 6 a 8, conforme parecer) |
+| Excluídos nesta etapa | PENDENTE |
 
 **Principais motivos de exclusão nesta filtragem:**
 - Artigo trata de outro algoritmo/tema e cita Dijkstra apenas tangencialmente
 - Contribuição metodológica insuficiente ou não verificável (sem validação experimental)
+- Não revisado por pares (*preprint* sem publicação posterior)
 
-*Responsável(is) por esta triagem: `[Nome(s)]`*
+*Responsável(is) por esta triagem: Guilherme Da Macena*
 
 ---
 
@@ -153,120 +169,94 @@
 
 *Liste aqui os artigos que passaram por todas as filtragens e seguirão para o fichamento (etapa "j"). Referência completa no formato ABNT/APA definido pelo projeto.*
 
-1. DIJKSTRA, E. W. A note on two problems in connexion with graphs. *Numerische Mathematik*, v. 1, n. 1, p. 269–271, 1959. (artigo original — referência fundacional)
-2. MADKOUR, A. et al. A survey of shortest-path algorithms. *arXiv preprint arXiv:1705.02044*, 2017.
-3. TANG, J.; SUN, Q.; CHEN, Z. A new implementation of Dijkstra's algorithm on urban rail transit network. In: *International Conference on Civil, Transportation and Environment*. Atlantis Press, 2016. p. 507–513.
-4. VERMA, D. et al. Comparative study of various approaches of Dijkstra algorithm. In: *2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)*. IEEE, 2021. p. 328–336.
+> **Status: pré-seleção (8 itens, dentro da meta de 6–8 do parecer).** A lista só vira "conjunto definitivo" depois de os Passos 5–7 serem executados. Os itens 1–4 são fundamentos aprovados no parecer ou clássicos consolidados. Os itens 5–8 precisam ser conferidos na fonte (existência, DOI, páginas, revisão por pares).
 
-*a.1 — Trabalhos fundacionais / algoritmos clássicos de caminho mínimo*
+1. DIJKSTRA, E. W. A note on two problems in connexion with graphs. *Numerische Mathematik*, v. 1, n. 1, p. 269–271, 1959. DOI: 10.1007/BF01386390. *(artigo original — referência fundacional; aprovado no parecer)*
+2. HART, P. E.; NILSSON, N. J.; RAPHAEL, B. A formal basis for the heuristic determination of minimum cost paths. *IEEE Transactions on Systems Science and Cybernetics*, v. 4, n. 2, p. 100–107, 1968. DOI: 10.1109/TSSC.1968.300136. *(A*, usado como comparação; aprovado no parecer)*
+3. FREDMAN, M. L.; TARJAN, R. E. Fibonacci heaps and their uses in improved network optimization algorithms. *Journal of the ACM*, v. 34, n. 3, p. 596–615, 1987. DOI: 10.1145/28869.28874. *(complexidade de Dijkstra com heap de Fibonacci; aprovado no parecer)*
+4. GEISBERGER, R. et al. Contraction hierarchies: faster and simpler hierarchical routing in road networks. In: *Experimental Algorithms (WEA 2008)*. Berlin: Springer, 2008. p. 319–333. *(otimização para redes viárias; aprovado no parecer; conferir DOI)*
+5. BAST, H. et al. Route planning in transportation networks. In: *Algorithm Engineering*. Cham: Springer, 2016. (LNCS 9220). *(revisão de técnicas de roteamento em redes viárias — sugestão do assistente; conferir páginas e DOI)*
+6. MADKOUR, A. et al. A survey of shortest-path algorithms. *arXiv preprint arXiv:1705.02044*, 2017. *(atenção: é *preprint*, o que conflita com o critério de exclusão do Passo 4. Verificar se houve publicação em periódico; do contrário, justificar como exceção ou substituir)*
+7. TANG, J.; SUN, Q.; CHEN, Z. A new implementation of Dijkstra's algorithm on urban rail transit network. In: *International Conference on Civil, Transportation and Environment*. Atlantis Press, 2016. p. 507–513. *(sinalizado "Verificar" no parecer: confirmar existência, DOI e páginas)*
+8. VERMA, D. et al. Comparative study of various approaches of Dijkstra algorithm. In: *2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)*. IEEE, 2021. p. 328–336. *(confirmar DOI e páginas no IEEE Xplore)*
 
-5. HART, P. E.; NILSSON, N. J.; RAPHAEL, B. A formal basis for the heuristic determination of minimum cost paths. *IEEE Transactions on Systems Science and Cybernetics*, v. 4, n. 2, p. 100–107, 1968. (artigo original do algoritmo A*)
-6. BELLMAN, R. On a routing problem. *Quarterly of Applied Mathematics*, v. 16, n. 1, p. 87–90, 1958. (base teórica do algoritmo Bellman-Ford)
-7. FORD, L. R. *Network flow theory*. Santa Monica: The RAND Corporation, 1956. (Report P-923).
-8. FLOYD, R. W. Algorithm 97: shortest path. *Communications of the ACM*, v. 5, n. 6, p. 345, 1962.
-9. WARSHALL, S. A theorem on Boolean matrices. *Journal of the ACM*, v. 9, n. 1, p. 11–12, 1962. (com Floyd, 1962, fundamenta o algoritmo Floyd-Warshall)
-10. JOHNSON, D. B. Efficient algorithms for shortest paths in sparse networks. *Journal of the ACM*, v. 24, n. 1, p. 1–13, 1977.
-11. YEN, J. Y. Finding the k shortest loopless paths in a network. *Management Science*, v. 17, n. 11, p. 712–716, 1971.
-12. FREDMAN, M. L.; TARJAN, R. E. Fibonacci heaps and their uses in improved network optimization algorithms. *Journal of the ACM*, v. 34, n. 3, p. 596–615, 1987. (otimização de Dijkstra com heaps)
-13. MOORE, E. F. The shortest path through a maze. In: *Proceedings of the International Symposium on the Theory of Switching*, Part II. Cambridge: Harvard University Press, 1959. p. 285–292.
-14. DINITZ, Y.; ITZHAK, R. Hybrid Bellman-Ford-Dijkstra algorithm. *Journal of Discrete Algorithms*, v. 42, p. 35–44, 2017.
-
-*a.2 — Estudos comparativos e revisões (survey)*
-
-15. RACHMAWATI, D.; GUSTIN, L. Analysis of Dijkstra's algorithm and A* algorithm in shortest path problem. *Journal of Physics: Conference Series*, v. 1566, 012061, 2020.
-16. ABUSALIM, S. W. G.; IBRAHIM, R.; SARINGAT, M. Z.; JAMEL, S.; WAHAB, J. A. Comparative analysis between Dijkstra and Bellman-Ford algorithms in shortest path optimization. *IOP Conference Series: Materials Science and Engineering*, v. 917, 012077, 2020.
-17. BARKUND, S. H. Survey of shortest path algorithms. *JJTU Journal (International Research Journal)*, p. 56 et seq., 2022.
-18. TOROSLU, I. H. The Floyd-Warshall all-pairs shortest paths algorithm for disconnected and very sparse graphs. *Software: Practice and Experience*, v. 53, n. 5, p. 1287–1300, 2023.
-19. LEWIS, R. A comparison of Dijkstra's algorithm using Fibonacci heaps, binary heaps, and self-balancing binary trees. *arXiv preprint arXiv:2303.10034*, 2023.
-20. ABURYASH, H. Comparison studies for different shortest path algorithms. *International Journal of Computers & Technology*, v. 14, n. 8, p. 5979–5986, 2015. DOI: 10.24297/ijct.v14i8.1857.
-
-*a.3 — Técnicas de aceleração, paralelização e otimização*
-
-21. GEISBERGER, R.; SANDERS, P.; SCHULTES, D.; DELLING, D. Contraction hierarchies: faster and simpler hierarchical routing in road networks. In: *International Workshop on Experimental Algorithms (WEA)*, 2008, Provincetown. Proceedings [...]. Berlin: Springer, 2008. p. 319–333.
-22. DELLING, D.; SANDERS, P.; SCHULTES, D.; WAGNER, D. Engineering route planning algorithms. In: LERNER, J.; WAGNER, D.; ZWEIG, K. A. (Ed.). *Algorithmics of Large and Complex Networks*. Berlin: Springer, 2009. p. 117–139. (Lecture Notes in Computer Science, v. 5515).
-23. HARISH, P.; NARAYANAN, P. J. Accelerating large graph algorithms on the GPU using CUDA. In: *International Conference on High Performance Computing (HiPC)*, 14., 2007. Proceedings [...]. Berlin: Springer, 2007. p. 197–208.
-24. SONG, B. High-performance parallelization of Dijkstra's algorithm using MPI and CUDA. *arXiv preprint arXiv:2504.03667*, 2025.
-
-*a.4 — Aplicações em transportes, roteamento e sistemas de navegação*
-
-25. ZILIASKOPOULOS, A. K.; MAHMASSANI, H. S. Time-dependent, shortest-path algorithm for real-time intelligent vehicle highway system applications. *Transportation Research Record*, n. 1408, p. 94–100, 1993.
-26. FU, L.; SUN, D.; RILETT, L. R. Heuristic shortest path algorithms for transportation applications: state of the art. *Computers & Operations Research*, v. 33, n. 11, p. 3324–3343, 2006.
-27. CONSTANTINOU, C. K.; ELLINAS, G.; PANAYIOTOU, C.; POLYCARPOU, M. Fast shortest path routing in transportation networks with time-dependent road speeds. *arXiv preprint arXiv:1408.4113*, 2014.
-28. CHEN, K. Y. An improved A* search algorithm for road networks using new heuristic estimation. *arXiv preprint arXiv:2208.00312*, 2022.
-
-*a.5 — Aplicações em robótica e sistemas embarcados*
-
-29. WANG, H. Application of Dijkstra algorithm in robot path-planning. In: *International Conference on Mechanic Automation and Control Engineering (MACE)*, 2011. Proceedings [...]. IEEE, 2011. DOI: 10.1109/MACE.2011.5987118.
-30. DIRIK, M.; KOCAMAZ, A. F. RRT-Dijkstra: an improved path planning algorithm for mobile robots. *Journal of Soft Computing and Artificial Intelligence*, v. 1, n. 2, p. 69–77, 2020.
-31. LI, X. Path planning of intelligent mobile robot based on Dijkstra algorithm. *Journal of Physics: Conference Series*, v. 2083, 042034, 2021.
+*Referências do repositório que o parecer citou e que não estão neste arquivo (ex.: nº 17, Barkund, JJTU Journal 2022, classificada como "fraca") foram deixadas de fora desta lista. A lista de 31 itens do repositório deve ser reduzida aos 6–8 aprovados na triagem real.*
 
 ---
 
 ## 4. Contribuição Individual dos Integrantes
 
 > **Importante:** cada integrante deve descrever, com suas próprias palavras, o que efetivamente fez em cada passo desta etapa. Contribuições genéricas como "ajudei em tudo" não serão aceitas. Use verbos de ação e seja específico (ex.: "executei a busca no IEEE Xplore com a string 2 e obtive 84 resultados; fiz a triagem por título/resumo de 40 desses").
-
+>
+> Em cada integrante abaixo, a linha **"Registrado no documento"** traz apenas o que o próprio arquivo já comprova (autoria de strings, responsabilidade por passos). A linha **"Execução"** deve ser escrita por cada pessoa.
 
 ### Integrante 1 — Vinicius da Silva
-- **Passo(s) em que atuou:** `[Passos 1 e 5]`
-- **O que fez em cada passo:** `[preencher]`
-- **Tempo dedicado (aprox.):** `[ex.: 5h]`
-- **Evidência da contribuição** *(print de busca, planilha de triagem, exportação BibTeX, etc.)*: `[link ou descrição]`
+- **Passo(s) em que atuou:** Passos 1 e 5
+- **Registrado no documento:** elaborou a pergunta de trabalho e a tabela de conceitos-chave e sinônimos (Passo 1).
+- **Execução (Passo 5):** PENDENTE — descrever base, string, data e nº de resultados das buscas que executou.
+- **Tempo dedicado (aprox.):** PENDENTE
+- **Evidência da contribuição:** PENDENTE — link ou descrição (print da busca, exportação BibTeX etc.)
 
 ### Integrante 2 — Gabriel Nascimento de Souza
-- **Passo(s) em que atuou:** `[Passos 2 e 5]`
-- **O que fez em cada passo:** `[preencher]`
-- **Tempo dedicado (aprox.):** `[ex.: 5h]`
-- **Evidência da contribuição:** `[link ou descrição]`
+- **Passo(s) em que atuou:** Passos 2 e 5
+- **Registrado no documento:** elaborou a string de busca 1 (IEEE Xplore; ACM); é o responsável pelas buscas no Scopus e no Portal CAPES (Passo 3).
+- **Execução (Passo 5):** PENDENTE — descrever base, string, data e nº de resultados.
+- **Tempo dedicado (aprox.):** PENDENTE
+- **Evidência da contribuição:** PENDENTE
 
 ### Integrante 3 — Lucas Marins de Souza Oliveira
-- **Passo(s) em que atuou:** `[Passos 2 e 6]`
-- **O que fez em cada passo:** `[preencher]`
-- **Tempo dedicado (aprox.):** `[ex.: 5h]`
-- **Evidência da contribuição:** `[link ou descrição]`
+- **Passo(s) em que atuou:** Passos 2 e 6
+- **Registrado no documento:** elaborou a string de busca 2 (Scopus); é o responsável pelas buscas no IEEE Xplore e na ACM (Passo 3).
+- **Execução (Passo 6):** PENDENTE — descrever quantos títulos/resumos triou e com que resultado.
+- **Tempo dedicado (aprox.):** PENDENTE
+- **Evidência da contribuição:** PENDENTE
 
 ### Integrante 4 — Murilo Santiago
-- **Passo(s) em que atuou:** `[Passos 3 e 6]`
-- **O que fez em cada passo:** `[preencher]`
-- **Tempo dedicado (aprox.):** `[ex.: 5h]`
-- **Evidência da contribuição:** `[link ou descrição]`
+- **Passo(s) em que atuou:** Passos 3 e 6
+- **Registrado no documento:** elaborou a string de busca 3 (Portal CAPES); conduziu a escolha e a justificativa das bases de dados (Passo 3).
+- **Execução (Passo 6):** PENDENTE — descrever quantos títulos/resumos triou e com que resultado.
+- **Tempo dedicado (aprox.):** PENDENTE
+- **Evidência da contribuição:** PENDENTE
 
 ### Integrante 5 — Guilherme Da Macena
-- **Passo(s) em que atuou:** `[Passos 4 e 7]`
-- **O que fez em cada passo:** `[preencher]`
-- **Tempo dedicado (aprox.):** `[ex.: 5h]`
-- **Evidência da contribuição:** `[link ou descrição]`
+- **Passo(s) em que atuou:** Passos 4 e 7
+- **Registrado no documento:** elaborou a string de busca 4 (comparações entre algoritmos); definiu os critérios de inclusão e exclusão (Passo 4).
+- **Execução (Passo 7):** PENDENTE — descrever quantos artigos leu na íntegra e quantos aprovou/excluiu.
+- **Tempo dedicado (aprox.):** PENDENTE
+- **Evidência da contribuição:** PENDENTE
 
 ### 4.1 Quadro-resumo de participação por passo
 
 | Passo | Responsável(is) | % estimado de participação de cada um |
 |---|---|---|
-| 1. Pergunta e palavras-chave | Vinicius da Silva | `[ ]` |
-| 2. Strings de busca | Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira | `[ ]` |
-| 3. Bases de dados | Murilo Santiago | `[ ]` |
-| 4. Critérios de inclusão/exclusão | Guilherme Da Macena | `[ ]` |
-| 5. Execução das buscas | Vinicius da Silva; Gabriel Nascimento de Souza | `[ ]` |
-| 6. Triagem título/resumo | Lucas Marins de Souza Oliveira; Murilo Santiago | `[ ]` |
-| 7. Triagem texto completo | Guilherme Da Macena | `[ ]` |
+| 1. Pergunta e palavras-chave | Vinicius da Silva | PENDENTE |
+| 2. Strings de busca | Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira (strings 3 e 4 também por Murilo Santiago e Guilherme Da Macena) | PENDENTE |
+| 3. Bases de dados | Murilo Santiago | PENDENTE |
+| 4. Critérios de inclusão/exclusão | Guilherme Da Macena | PENDENTE |
+| 5. Execução das buscas | Vinicius da Silva; Gabriel Nascimento de Souza *(ver observação abaixo)* | PENDENTE |
+| 6. Triagem título/resumo | Lucas Marins de Souza Oliveira; Murilo Santiago | PENDENTE |
+| 7. Triagem texto completo | Guilherme Da Macena | PENDENTE |
+
+*Observação: o Passo 3 atribui as buscas no IEEE Xplore/ACM a Lucas, mas este quadro atribui a execução (Passo 5) a Vinicius e Gabriel. O grupo deve confirmar quem realmente executou cada busca e deixar as duas seções consistentes.*
 
 ### 4.2 Quadro-resumo geral de participação na etapa
 
 | Integrante | % estimado de participação total nesta etapa |
 |---|---|
-| Vinicius da Silva | `[ex.: 20%]` |
-| Gabriel Nascimento de Souza | `[ex.: 20%]` |
-| Lucas Marins de Souza Oliveira | `[ex.: 20%]` |
-| Murilo Santiago | `[ex.: 20%]` |
-| Guilherme Da Macena | `[ex.: 20%]` |
+| Vinicius da Silva | PENDENTE |
+| Gabriel Nascimento de Souza | PENDENTE |
+| Lucas Marins de Souza Oliveira | PENDENTE |
+| Murilo Santiago | PENDENTE |
+| Guilherme Da Macena | PENDENTE |
 
-*A soma das porcentagens deve ser igual a 100%. Divergências de percepção sobre a participação devem ser discutidas em grupo antes do envio — o orientador pode solicitar esclarecimentos individuais em caso de disparidade relevante.*
+*A soma das porcentagens deve ser igual a 100%. Divergências de percepção sobre a participação devem ser discutidas em grupo antes do envio — o orientador pode solicitar esclarecimentos individuais em caso de disparidade relevante. Não use 20% para todos por padrão: registre a divisão real.*
 
 ---
 
 ## 5. Checklist Final da Etapa
 
 **Fase 1 — Planejamento**
-- [x] Pergunta de pesquisa de trabalho definida
+- [x] Pergunta de pesquisa de trabalho definida (reformulada conforme o parecer)
 - [x] Conceitos-chave e sinônimos (PT/EN) listados
 - [x] Strings de busca elaboradas com operadores booleanos
 - [x] Bases de dados escolhidas e justificadas
@@ -283,4 +273,21 @@
 - [ ] Contribuição individual de cada integrante registrada por passo
 - [ ] Quadro-resumo de participação preenchido (soma = 100%)
 
+**Ajustes obrigatórios do parecer**
+- [x] Arquivo renomeado para o padrão (`b_levantamento_bibliografico_preenchido.md`, sem espaço)
+- [x] Nenhum `[preencher]` remanescente (o que depende de dados reais está marcado como PENDENTE)
+- [x] Objetivo/pergunta reformulados para análise bibliográfica de complexidade
+- [ ] Passos 5–7 executados de fato e lista reduzida a 6–8 artigos
+- [ ] Contribuições e percentuais preenchidos com dados reais
+
 ---
+
+## 6. Registro de ajustes feitos após o parecer
+
+- Tema e pergunta de pesquisa recortados para Dijkstra em roteamento de emergência (análise bibliográfica); BFS removido.
+- Adicionados dois conceitos (roteamento de emergência; otimizações do Dijkstra) e a string de busca 5.
+- Corrigida inconsistência do Google Scholar (string 2) e removida linha truncada da tabela do Passo 3.
+- Critérios de inclusão: clássicos explicitados; preprints incluídos nos critérios de exclusão.
+- Passo 5: tabela expandida para cobrir todas as combinações string × base.
+- Lista de artigos reorganizada em pré-seleção de 8 itens, com alertas sobre o preprint (Madkour) e os itens a verificar (Tang, Verma).
+- Seção de contribuições: mantido apenas o que o documento comprova; execução, tempo, evidências e percentuais ficam para o grupo.
