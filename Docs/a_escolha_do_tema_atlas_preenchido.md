@@ -80,7 +80,8 @@ Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e explor
 ### Integrante 1 — Gabriel Nascimento de Souza
 - **O que fez nesta etapa:** `[preenchimento]`
 - **Tempo dedicado (aprox.):** `[3h]`
-- **Evidência da contribuição** *(print de conversa, rascunho, e-mail, documento compartilhado etc.)*: `[preencher]`
+- **Evidência da contribuição** *(print de conversa, rascunho, e-mail, documento compartilhado etc.)*: - **Evidência da contribuição** *(print de conversa, rascunho, e-mail, documento compartilhado etc.)*: `![Evidência da contribuição - Gabriel](../evidencias/Evidencia-Gabriel-.png)'
+
 
 ### Integrante 2 — Lucas Marins de Souza Oliveira
 - **O que fez nesta etapa:** `[preenchimento]`
