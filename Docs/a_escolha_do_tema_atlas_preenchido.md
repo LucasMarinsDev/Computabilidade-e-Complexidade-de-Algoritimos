@@ -11,8 +11,8 @@
 | Curso / Disciplina | Ciência da Computação / Teoria dos Grafos |
 | Projeto de Pesquisa / IC | Atlas Global — Sistema Inteligente de Rotas com Teoria dos Grafos |
 | Orientador(a) | Profa. Dra. Andréa Ono Sakai |
-| Data de entrega desta etapa | `[não informada no projeto ATLAS — preencher com a data real do grupo]` |
-| Integrantes do grupo | Gabriel Nascimento de Souza (RA 39130819); Lucas Marins de Souza Oliveira (RA 47992603); Cauan Gonçalves de Jesus (RA `[não informado no projeto ATLAS]`) |
+| Data de entrega desta etapa | `[]` |
+| Integrantes do grupo | Vinicius da Silva; Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira; Murilo Santiago; Guilherme Da Macena`) |
 
 ---
 
@@ -42,22 +42,22 @@ Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e explor
 ### 3.1 Relevância
 *Por que esse tema é importante ou atual? Para quem ele importa (academia, mercado, sociedade)?*
 
-Segundo a documentação do projeto Atlas (arquivo `docs/E1_Template.md`), a motivação central é que, em operações de busca e resgate — especialmente em áreas isoladas, trilhas, regiões rurais ou locais de acesso comprometido —, a escolha do caminho interfere diretamente no tempo de resposta da equipe. Em cenários de pressão, baixa visibilidade do terreno e informações incompletas, a definição da rota tende a ser feita no improviso, o que aumenta o risco da operação e atrasa a chegada ao ponto de resgate. Nem sempre o caminho aparentemente mais curto é o melhor, pois um trecho pode ter maior dificuldade, apresentar obstáculos ou consumir mais tempo do que uma rota alternativa. O sistema é voltado a equipes de busca e resgate, brigadistas, defesa civil e bombeiros. O caráter aplicado do projeto é reforçado pelos dados reais utilizados em `data/grafo.json`, que representam pontos como Corpo de Bombeiros (Centro), UPA Mogilar e ocorrências (deslizamento, acidente de rodovia, chamados de emergência), tornando o tema relevante tanto para a academia (aplicação prática de algoritmos clássicos de grafos) quanto para cenários reais de apoio a operações de emergência.
+`A motivação central é que, em operações de busca e resgate — especialmente em áreas isoladas, trilhas, regiões rurais ou locais de acesso comprometido —, a escolha do caminho interfere diretamente no tempo de resposta da equipe. Em cenários de pressão, baixa visibilidade do terreno e informações incompletas, a definição da rota tende a ser feita no improviso, o que aumenta o risco da operação e atrasa a chegada ao ponto de resgate. Nem sempre o caminho aparentemente mais curto é o melhor, pois um trecho pode ter maior dificuldade, apresentar obstáculos ou consumir mais tempo do que uma rota alternativa. O sistema é voltado a equipes de busca e resgate, brigadistas, defesa civil e bombeiros. O caráter aplicado do projeto é reforçado pelos dados reais utilizados no trabalho AtlasGlobal, que representam pontos como Corpo de Bombeiros (Centro), UPA Mogilar e ocorrências (deslizamento, acidente de rodovia, chamados de emergência), tornando o tema relevante tanto para a academia (aplicação prática de algoritmos clássicos de grafos) quanto para cenários reais de apoio a operações de emergência.`
 
 ### 3.2 Viabilidade
 *O grupo avaliou se tem tempo, recursos, acesso a dados/fontes e domínio mínimo do assunto para desenvolver esse tema até o fim do projeto?*
 
 | Critério | Avaliação (Sim/Parcial/Não) | Observação |
 |---|---|---|
-| Tempo disponível é suficiente | `[não informado no projeto ATLAS — preencher com a avaliação real do grupo]` | `[ ]` |
-| Há acesso a fontes/dados necessários | Sim | O projeto já possui uma base de dados própria em `data/grafo.json`, com vértices e arestas ponderadas baseados em pontos reais da região (bombeiros, UPA, ocorrências), o que indica que o grupo já dispunha de dados estruturados para o desenvolvimento. |
-| O grupo já tem domínio mínimo do tema | Sim | O grupo implementou funcionalmente o algoritmo de Dijkstra (`src/algorithms/dijkstra.py`) e a Busca em Largura (`src/algorithms/bfs.py`), além de testes automatizados (`tests/test_graph.py`), o que demonstra domínio técnico mínimo já alcançado. |
+| Tempo disponível é suficiente | `[Sim]` | `[ ]` |
+| Há acesso a fontes/dados necessários | Sim | O projeto já possui uma base de dados própria em `https://github.com/CauanGoncalvesDeJesus/atlas-global-grafos`, com vértices e arestas ponderadas baseados em pontos reais da região (bombeiros, UPA, ocorrências), o que indica que o grupo já dispunha de dados estruturados para o desenvolvimento. |
+| O grupo já tem domínio mínimo do tema | Sim | O grupo implementou funcionalmente o algoritmo de Dijkstra (`(https://github.com/CauanGoncalvesDeJesus/atlas-global-grafos)`) e a Busca em Largura , além de testes automatizados , o que demonstra domínio técnico mínimo já alcançado. |
 | Recursos técnicos necessários estão disponíveis | Sim | O projeto foi desenvolvido com Python, Flask, SQLite, HTML/CSS e estrutura JSON — tecnologias de acesso livre e já dominadas pelo grupo, conforme README do repositório. |
 
 ### 3.3 Originalidade / Não-redundância
 *O grupo verificou rapidamente (via um levantamento preliminar) se o tema já é excessivamente explorado ou se existe um ângulo próprio a ser explorado?*
 
-`[não informado no projeto ATLAS — a documentação disponível (README e templates E1/E2/E3) não registra um levantamento preliminar de originalidade; este item deve ser preenchido pelo grupo]`
+`Um levantamento preliminar (busca por "Dijkstra algorithm search and rescue route optimization emergency logistics") mostrou que o uso de Dijkstra em roteamento de emergência já é um tema bastante explorado na literatura internacional, incluindo trabalhos sobre resgate em ambientes tipo labirinto combinando algoritmos de formigas com Dijkstra, sobre despacho dinâmico de forças de resgate em enchentes urbanas, e sobre roteamento de veículos especiais em desastres de grande escala. A maioria desses trabalhos, porém, foca em versões avançadas do algoritmo — modificações tempo-dependentes, paralelização, integração com IA ou dados de tráfego em tempo real — aplicadas a redes rodoviárias nacionais ou cenários simulados.`
 
 ---
 
@@ -65,11 +65,9 @@ Segundo a documentação do projeto Atlas (arquivo `docs/E1_Template.md`), a mot
 
 | Campo | Informação |
 |---|---|
-| Data da conversa/validação | `[não informada no projeto ATLAS]` |
-| Tema aprovado pelo orientador? | `[não informado no projeto ATLAS]` |
-| Observações ou ajustes solicitados pelo orientador | `[não informado no projeto ATLAS]` |
-
-*Observação: a documentação do Atlas identifica a orientadora da disciplina (Profa. Dra. Andréa Ono Sakai, Teoria dos Grafos), mas não traz registro de data, aprovação formal ou ajustes solicitados para a etapa de escolha do tema.*
+| Data da conversa/validação | `[11/08]` |
+| Tema aprovado pelo orientador? | `[Sim]` |
+| Observações ou ajustes solicitados pelo orientador | `[foi solicitado e acordado pelo grupo a remoção do bfs]` |
 
 ---
 
@@ -112,8 +110,9 @@ Segundo a documentação do projeto Atlas (arquivo `docs/E1_Template.md`), a mot
 |---|---|---|
 | Gabriel Nascimento de Souza | `[preencher]` | `[preencher]` |
 | Lucas Marins de Souza Oliveira | `[preencher]` | `[preencher]` |
-| Vinicius  | `[preencher]` | `[preencher]` |
-
+| Vinicius da Silva| `[preencher]` | `[preencher]` |
+| Murilo Santiago| `[preencher]` | `[preencher]` |
+| Guilherme Da Macena| `[preencher]` | `[preencher]` |
 *A soma das porcentagens deve ser igual a 100%. Divergências de percepção sobre a participação devem ser discutidas em grupo antes do envio — o orientador pode solicitar esclarecimentos individuais em caso de disparidade relevante.*
 
 ---
@@ -122,12 +121,12 @@ Segundo a documentação do projeto Atlas (arquivo `docs/E1_Template.md`), a mot
 
 - [x] Tema delimitado e redigido em 1-2 frases
 - [x] Justificativa de relevância escrita
-- [ ] Viabilidade avaliada pelo grupo *(3 dos 4 critérios puderam ser sustentados com evidências do repositório Atlas; "tempo disponível" depende de avaliação do grupo)*
-- [ ] Verificação preliminar de originalidade realizada *(não há registro disso no Atlas)*
-- [ ] Tema validado com o orientador *(não há registro de data/aprovação no Atlas)*
-- [ ] Contribuição individual de cada integrante registrada *(não há registro disso no Atlas)*
-- [ ] Quadro-resumo de participação preenchido (soma = 100%) *(não há registro disso no Atlas)*
+- [x] Viabilidade avaliada pelo grupo *(3 dos 4 critérios puderam ser sustentados com evidências do repositório Atlas; "tempo disponível" depende de avaliação do grupo)*
+- [x] Verificação preliminar de originalidade realizada 
+- [x] Tema validado com o orientador 
+- [ ] Contribuição individual de cada integrante registrada 
+- [ ] Quadro-resumo de participação preenchido (soma = 100%)
 
 ---
 
-**Nota sobre o preenchimento:** as seções 2 (Tema Escolhido) e 3.1/3.2 foram preenchidas com base em informações reais e verificáveis no repositório do projeto Atlas Global (README.md, docs/E1_Template.md e data/grafo.json). Os campos marcados como `[não informado no projeto ATLAS]` ou `[preencher]` não possuem essa informação disponível na documentação do projeto e precisam ser completados pelo grupo com dados reais, para não constar informação falsa neste documento.
+**Nota sobre o preenchimento:** as seções 2 (Tema Escolhido) e 3.1/3.2 foram preenchidas com base em informações reais e verificáveis no repositório do projeto Atlas Global (README.md, docs/E1_Template.md e data/grafo.json). Os campos marcados como `[]` ou `[preencher]` não possuem essa informação disponível na documentação do projeto e precisam ser completados pelo grupo com dados reais, para não constar informação falsa neste documento.

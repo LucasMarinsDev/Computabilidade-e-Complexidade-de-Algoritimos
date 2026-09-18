@@ -126,7 +126,6 @@
 *A triagem detalhada, artigo por artigo, deve ser registrada na planilha de controle do projeto (aba "Triagem de Artigos"). Aqui, registre apenas o resumo quantitativo.*
 
 **Como as dúvidas foram resolvidas?** *(ex.: discussão em grupo, consulta ao orientador)*
-`[preencher — recomenda-se registrar reunião de grupo com critério de desempate por votação e, em casos persistentes, consulta à orientadora]`
 
 *Responsável(is) por esta triagem: `[Nome(s)]`*
 
@@ -154,14 +153,52 @@
 
 *Liste aqui os artigos que passaram por todas as filtragens e seguirão para o fichamento (etapa "j"). Referência completa no formato ABNT/APA definido pelo projeto.*
 
-
 1. DIJKSTRA, E. W. A note on two problems in connexion with graphs. *Numerische Mathematik*, v. 1, n. 1, p. 269–271, 1959. (artigo original — referência fundacional)
 2. MADKOUR, A. et al. A survey of shortest-path algorithms. *arXiv preprint arXiv:1705.02044*, 2017.
 3. TANG, J.; SUN, Q.; CHEN, Z. A new implementation of Dijkstra's algorithm on urban rail transit network. In: *International Conference on Civil, Transportation and Environment*. Atlantis Press, 2016. p. 507–513.
 4. VERMA, D. et al. Comparative study of various approaches of Dijkstra algorithm. In: *2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)*. IEEE, 2021. p. 328–336.
-5. `[Referência 5 ]`
 
-*(Adicione quantas linhas forem necessárias.)*
+*a.1 — Trabalhos fundacionais / algoritmos clássicos de caminho mínimo*
+
+5. HART, P. E.; NILSSON, N. J.; RAPHAEL, B. A formal basis for the heuristic determination of minimum cost paths. *IEEE Transactions on Systems Science and Cybernetics*, v. 4, n. 2, p. 100–107, 1968. (artigo original do algoritmo A*)
+6. BELLMAN, R. On a routing problem. *Quarterly of Applied Mathematics*, v. 16, n. 1, p. 87–90, 1958. (base teórica do algoritmo Bellman-Ford)
+7. FORD, L. R. *Network flow theory*. Santa Monica: The RAND Corporation, 1956. (Report P-923).
+8. FLOYD, R. W. Algorithm 97: shortest path. *Communications of the ACM*, v. 5, n. 6, p. 345, 1962.
+9. WARSHALL, S. A theorem on Boolean matrices. *Journal of the ACM*, v. 9, n. 1, p. 11–12, 1962. (com Floyd, 1962, fundamenta o algoritmo Floyd-Warshall)
+10. JOHNSON, D. B. Efficient algorithms for shortest paths in sparse networks. *Journal of the ACM*, v. 24, n. 1, p. 1–13, 1977.
+11. YEN, J. Y. Finding the k shortest loopless paths in a network. *Management Science*, v. 17, n. 11, p. 712–716, 1971.
+12. FREDMAN, M. L.; TARJAN, R. E. Fibonacci heaps and their uses in improved network optimization algorithms. *Journal of the ACM*, v. 34, n. 3, p. 596–615, 1987. (otimização de Dijkstra com heaps)
+13. MOORE, E. F. The shortest path through a maze. In: *Proceedings of the International Symposium on the Theory of Switching*, Part II. Cambridge: Harvard University Press, 1959. p. 285–292.
+14. DINITZ, Y.; ITZHAK, R. Hybrid Bellman-Ford-Dijkstra algorithm. *Journal of Discrete Algorithms*, v. 42, p. 35–44, 2017.
+
+*a.2 — Estudos comparativos e revisões (survey)*
+
+15. RACHMAWATI, D.; GUSTIN, L. Analysis of Dijkstra's algorithm and A* algorithm in shortest path problem. *Journal of Physics: Conference Series*, v. 1566, 012061, 2020.
+16. ABUSALIM, S. W. G.; IBRAHIM, R.; SARINGAT, M. Z.; JAMEL, S.; WAHAB, J. A. Comparative analysis between Dijkstra and Bellman-Ford algorithms in shortest path optimization. *IOP Conference Series: Materials Science and Engineering*, v. 917, 012077, 2020.
+17. BARKUND, S. H. Survey of shortest path algorithms. *JJTU Journal (International Research Journal)*, p. 56 et seq., 2022.
+18. TOROSLU, I. H. The Floyd-Warshall all-pairs shortest paths algorithm for disconnected and very sparse graphs. *Software: Practice and Experience*, v. 53, n. 5, p. 1287–1300, 2023.
+19. LEWIS, R. A comparison of Dijkstra's algorithm using Fibonacci heaps, binary heaps, and self-balancing binary trees. *arXiv preprint arXiv:2303.10034*, 2023.
+20. ABURYASH, H. Comparison studies for different shortest path algorithms. *International Journal of Computers & Technology*, v. 14, n. 8, p. 5979–5986, 2015. DOI: 10.24297/ijct.v14i8.1857.
+
+*a.3 — Técnicas de aceleração, paralelização e otimização*
+
+21. GEISBERGER, R.; SANDERS, P.; SCHULTES, D.; DELLING, D. Contraction hierarchies: faster and simpler hierarchical routing in road networks. In: *International Workshop on Experimental Algorithms (WEA)*, 2008, Provincetown. Proceedings [...]. Berlin: Springer, 2008. p. 319–333.
+22. DELLING, D.; SANDERS, P.; SCHULTES, D.; WAGNER, D. Engineering route planning algorithms. In: LERNER, J.; WAGNER, D.; ZWEIG, K. A. (Ed.). *Algorithmics of Large and Complex Networks*. Berlin: Springer, 2009. p. 117–139. (Lecture Notes in Computer Science, v. 5515).
+23. HARISH, P.; NARAYANAN, P. J. Accelerating large graph algorithms on the GPU using CUDA. In: *International Conference on High Performance Computing (HiPC)*, 14., 2007. Proceedings [...]. Berlin: Springer, 2007. p. 197–208.
+24. SONG, B. High-performance parallelization of Dijkstra's algorithm using MPI and CUDA. *arXiv preprint arXiv:2504.03667*, 2025.
+
+*a.4 — Aplicações em transportes, roteamento e sistemas de navegação*
+
+25. ZILIASKOPOULOS, A. K.; MAHMASSANI, H. S. Time-dependent, shortest-path algorithm for real-time intelligent vehicle highway system applications. *Transportation Research Record*, n. 1408, p. 94–100, 1993.
+26. FU, L.; SUN, D.; RILETT, L. R. Heuristic shortest path algorithms for transportation applications: state of the art. *Computers & Operations Research*, v. 33, n. 11, p. 3324–3343, 2006.
+27. CONSTANTINOU, C. K.; ELLINAS, G.; PANAYIOTOU, C.; POLYCARPOU, M. Fast shortest path routing in transportation networks with time-dependent road speeds. *arXiv preprint arXiv:1408.4113*, 2014.
+28. CHEN, K. Y. An improved A* search algorithm for road networks using new heuristic estimation. *arXiv preprint arXiv:2208.00312*, 2022.
+
+*a.5 — Aplicações em robótica e sistemas embarcados*
+
+29. WANG, H. Application of Dijkstra algorithm in robot path-planning. In: *International Conference on Mechanic Automation and Control Engineering (MACE)*, 2011. Proceedings [...]. IEEE, 2011. DOI: 10.1109/MACE.2011.5987118.
+30. DIRIK, M.; KOCAMAZ, A. F. RRT-Dijkstra: an improved path planning algorithm for mobile robots. *Journal of Soft Computing and Artificial Intelligence*, v. 1, n. 2, p. 69–77, 2020.
+31. LI, X. Path planning of intelligent mobile robot based on Dijkstra algorithm. *Journal of Physics: Conference Series*, v. 2083, 042034, 2021.
 
 ---
 
