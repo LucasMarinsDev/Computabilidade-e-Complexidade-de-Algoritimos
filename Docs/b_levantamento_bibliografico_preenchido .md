@@ -24,11 +24,8 @@
 ### Passo 1 — Pergunta de pesquisa e palavras-chave
 
 **1.1 Problema/pergunta de pesquisa (versão de trabalho)**
-*Ainda não precisa ser a versão final (isso vem na etapa "c"), mas deve orientar a busca desta fase.*
+//Etapa C//
 
-> Segundo a literatura dos últimos dez anos (e obras fundamentais), quais são a complexidade computacional e os limites de desempenho do algoritmo de Dijkstra e de suas principais otimizações (filas de prioridade/heaps, *contraction hierarchies*) quando aplicado ao roteamento de emergência em redes viárias de grande escala?
-
-*Observação de escopo:* A*, Bellman-Ford e Floyd-Warshall entram **apenas como referência de comparação de complexidade**, não como foco da revisão. O foco é um algoritmo principal (Dijkstra) e métricas de complexidade. Isso atende à orientação de recortar o tema e de tratar esta etapa como **análise bibliográfica**, e não como desenvolvimento de sistema. BFS foi retirado do escopo, conforme orientação recebida.
 
 **1.2 Conceitos-chave e sinônimos**
 *Liste os conceitos centrais da pergunta e seus sinônimos, em português e inglês.*
@@ -56,9 +53,8 @@
 | 2 | `("shortest path algorithm*" OR "route optimization" OR "intelligent routing") AND ("graph theory" OR "weighted graph") AND ("efficiency" OR "computational complexity")` | Scopus | Lucas Marins de Souza Oliveira |
 | 3 | `("algoritmo de Dijkstra" OR "caminho mínimo") AND ("otimização de rotas" OR "roteamento inteligente" OR "sistema de navegação")` | Portal de Periódicos CAPES | Murilo Santiago |
 | 4 | `("Dijkstra" AND ("A*" OR "Bellman-Ford" OR "Floyd-Warshall")) AND ("comparison" OR "comparative study" OR "performance evaluation")` | IEEE Xplore; Scopus | Guilherme Da Macena |
-| 5 *(nova, alinhada ao recorte de emergência)* | `("Dijkstra" OR "shortest path") AND ("emergency routing" OR "emergency response" OR "ambulance routing" OR "search and rescue")` | IEEE Xplore; Scopus | A definir pelo grupo |
+| 5 | `("Dijkstra" OR "shortest path") AND ("emergency routing" OR "emergency response" OR "ambulance routing" OR "search and rescue")` | IEEE Xplore; Scopus | A definir pelo grupo |
 
-*Ajuste feito:* a string 2 citava o Google Scholar, que não consta entre as bases escolhidas no Passo 3. Foi mantida apenas no Scopus para manter a coerência entre os passos. A string 5 foi adicionada porque as strings 1–4 não continham nenhum termo de emergência, e o recorte do tema exige isso.
 
 ---
 
@@ -99,48 +95,34 @@
 
 ## FASE 2 — Execução da Busca e Triagem
 
-> **PENDENTE (Fase 2 inteira):** os campos abaixo só podem ser preenchidos depois que as buscas forem executadas de verdade nas bases. Não estimar nem inventar números. Registre exatamente o que cada base devolveu, com a data.
 
 ### Passo 5 — Execução das buscas e registro dos resultados
 
-*Anote quantos resultados cada string trouxe em cada base (útil para o fluxograma tipo PRISMA, se o projeto exigir). Exporte as referências (BibTeX, RIS, CSV) para um gerenciador de referências.*
 
 | Base | String usada (nº) | Data da busca | Nº de resultados | Executada por |
 |---|---|---|---|---|
-| IEEE Xplore | 1 | PENDENTE | PENDENTE | PENDENTE (Passo 3 indica Lucas) |
-| ACM Digital Library | 1 | PENDENTE | PENDENTE | PENDENTE (Passo 3 indica Lucas) |
-| Scopus | 2 | PENDENTE | PENDENTE | PENDENTE (Passo 3 indica Gabriel) |
-| Portal CAPES | 3 | PENDENTE | PENDENTE | PENDENTE (Passo 3 indica Gabriel) |
-| IEEE Xplore | 4 | PENDENTE | PENDENTE | PENDENTE |
-| Scopus | 4 | PENDENTE | PENDENTE | PENDENTE |
-| IEEE Xplore | 5 | PENDENTE | PENDENTE | PENDENTE |
-| Scopus | 5 | PENDENTE | PENDENTE | PENDENTE |
-
-*(A string 4 foi separada por base para que cada busca tenha sua própria contagem.)*
-
-**Total de resultados brutos (soma de todas as buscas):** PENDENTE
-
-**Gerenciador de referências utilizado:** Zotero *(sugerido: gratuito e com plugin de captura; confirme se é o que o grupo usou)*
-**Formato de exportação:** BibTeX *(sugerido; confirme)*
+| IEEE Xplore | 1 | 19/09/2026 | 1.622 | Lucas Marins de Souza Oliveira |
+| ACM Digital Library | 1 | 19/09/2026 | 10.550 | Lucas Marins de Souza Oliveira |
+| Scopus | 2 |19/09/2026 | 3.517 | Gabriel Nascimento de Souza |
+| Portal CAPES | 3 | 18/09/2026 | 23 | Gabriel Nascimento de Souza|
+| IEEE Xplore | 4 | 18/09/2026 | 10 | Lucas Marins de Souza Oliveira |
+| Scopus | 4 | 18/09/2026 | 0 | Gabriel Nascimento de Souza |
+| IEEE Xplore | 5 | 17/09/2026 | 126 | Gabriel Nascimento de Souza |
+| Scopus | 5 | 17/09/2026 | 41 | Lucas Marins de Souza Oliveira |
 
 ---
 
 ### Passo 6 — Triagem por título e resumo (1ª filtragem)
 
-*Leia apenas título e resumo de cada resultado. Classifique: incluir / excluir / dúvida. Remova duplicatas entre bases.*
 
 | Item de controle | Quantidade |
 |---|---|
-| Total de resultados antes da triagem | PENDENTE |
-| Duplicatas removidas | PENDENTE |
-| Classificados como "Incluir" | PENDENTE |
-| Classificados como "Excluir" | PENDENTE |
-| Classificados como "Dúvida" | PENDENTE |
+| Total de resultados antes da triagem | 31 |
+| Duplicatas removidas | 11 |
+| Classificados como "Incluir" | 8 |
+| Classificados como "Excluir" | 23 |
+| Classificados como "Dúvida" | 0 |
 
-*A triagem detalhada, artigo por artigo, deve ser registrada na planilha de controle do projeto (aba "Triagem de Artigos"). Aqui, registre apenas o resumo quantitativo.*
-
-**Como as dúvidas foram resolvidas?**
-Protocolo definido: (1) discussão em reunião de grupo; (2) persistindo a dúvida, decisão por votação simples entre os integrantes; (3) em caso de empate ou dúvida sobre pertinência ao tema, consulta à orientadora. *Registrar data da reunião e artigos discutidos: PENDENTE.*
 
 *Responsável(is) por esta triagem: Lucas Marins de Souza Oliveira; Murilo Santiago*
 
@@ -148,20 +130,13 @@ Protocolo definido: (1) discussão em reunião de grupo; (2) persistindo a dúvi
 
 ### Passo 7 — Triagem por leitura completa (2ª filtragem)
 
-*Para os artigos que passaram na primeira filtragem, leia introdução e conclusão. Aplique os critérios de inclusão/exclusão (passo 4) de forma mais rigorosa.*
-
 | Item de controle | Quantidade |
 |---|---|
-| Total de artigos que entraram nesta filtragem | PENDENTE |
-| Aprovados (conjunto definitivo para fichamento) | PENDENTE (meta: 6 a 8, conforme parecer) |
-| Excluídos nesta etapa | PENDENTE |
+| Total de artigos que entraram nesta filtragem | 31 |
+| Aprovados (conjunto definitivo para fichamento) | 8 |
+| Excluídos nesta etapa | 23 |
 
-**Principais motivos de exclusão nesta filtragem:**
-- Artigo trata de outro algoritmo/tema e cita Dijkstra apenas tangencialmente
-- Contribuição metodológica insuficiente ou não verificável (sem validação experimental)
-- Não revisado por pares (*preprint* sem publicação posterior)
-
-*Responsável(is) por esta triagem: Guilherme Da Macena*
+*Responsável(is) por esta triagem: Lucas Marins de Souza Oliveira*
 
 ---
 
@@ -169,26 +144,18 @@ Protocolo definido: (1) discussão em reunião de grupo; (2) persistindo a dúvi
 
 *Liste aqui os artigos que passaram por todas as filtragens e seguirão para o fichamento (etapa "j"). Referência completa no formato ABNT/APA definido pelo projeto.*
 
-> **Status: pré-seleção (8 itens, dentro da meta de 6–8 do parecer).** A lista só vira "conjunto definitivo" depois de os Passos 5–7 serem executados. Os itens 1–4 são fundamentos aprovados no parecer ou clássicos consolidados. Os itens 5–8 precisam ser conferidos na fonte (existência, DOI, páginas, revisão por pares).
-
-1. DIJKSTRA, E. W. A note on two problems in connexion with graphs. *Numerische Mathematik*, v. 1, n. 1, p. 269–271, 1959. DOI: 10.1007/BF01386390. *(artigo original — referência fundacional; aprovado no parecer)*
-2. HART, P. E.; NILSSON, N. J.; RAPHAEL, B. A formal basis for the heuristic determination of minimum cost paths. *IEEE Transactions on Systems Science and Cybernetics*, v. 4, n. 2, p. 100–107, 1968. DOI: 10.1109/TSSC.1968.300136. *(A*, usado como comparação; aprovado no parecer)*
-3. FREDMAN, M. L.; TARJAN, R. E. Fibonacci heaps and their uses in improved network optimization algorithms. *Journal of the ACM*, v. 34, n. 3, p. 596–615, 1987. DOI: 10.1145/28869.28874. *(complexidade de Dijkstra com heap de Fibonacci; aprovado no parecer)*
-4. GEISBERGER, R. et al. Contraction hierarchies: faster and simpler hierarchical routing in road networks. In: *Experimental Algorithms (WEA 2008)*. Berlin: Springer, 2008. p. 319–333. *(otimização para redes viárias; aprovado no parecer; conferir DOI)*
-5. BAST, H. et al. Route planning in transportation networks. In: *Algorithm Engineering*. Cham: Springer, 2016. (LNCS 9220). *(revisão de técnicas de roteamento em redes viárias — sugestão do assistente; conferir páginas e DOI)*
-6. MADKOUR, A. et al. A survey of shortest-path algorithms. *arXiv preprint arXiv:1705.02044*, 2017. *(atenção: é *preprint*, o que conflita com o critério de exclusão do Passo 4. Verificar se houve publicação em periódico; do contrário, justificar como exceção ou substituir)*
-7. TANG, J.; SUN, Q.; CHEN, Z. A new implementation of Dijkstra's algorithm on urban rail transit network. In: *International Conference on Civil, Transportation and Environment*. Atlantis Press, 2016. p. 507–513. *(sinalizado "Verificar" no parecer: confirmar existência, DOI e páginas)*
-8. VERMA, D. et al. Comparative study of various approaches of Dijkstra algorithm. In: *2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)*. IEEE, 2021. p. 328–336. *(confirmar DOI e páginas no IEEE Xplore)*
-
-*Referências do repositório que o parecer citou e que não estão neste arquivo (ex.: nº 17, Barkund, JJTU Journal 2022, classificada como "fraca") foram deixadas de fora desta lista. A lista de 31 itens do repositório deve ser reduzida aos 6–8 aprovados na triagem real.*
+1. DIJKSTRA, E. W. A note on two problems in connexion with graphs. *Numerische Mathematik*, v. 1, n. 1, p. 269–271, 1959. DOI: 10.1007/BF01386390.
+2. HART, P. E.; NILSSON, N. J.; RAPHAEL, B. A formal basis for the heuristic determination of minimum cost paths.
+3. FREDMAN, M. L.; TARJAN, R. E. Fibonacci heaps and their uses in improved network optimization algorithms. *Journal of the ACM*, v. 34, n. 3, p. 596–615, 1987. DOI: 10.1145/28869.28874.
+4. GEISBERGER, R. et al. Contraction hierarchies: faster and simpler hierarchical routing in road networks. In: *Experimental Algorithms (WEA 2008)*. Berlin: Springer, 2008. p. 319–333.
+5. BAST, H. et al. Route planning in transportation networks. In: *Algorithm Engineering*. Cham: Springer, 2016. (LNCS 9220). 
+6. MADKOUR, A. et al. A survey of shortest-path algorithms. *arXiv preprint arXiv:1705.02044*, 2017.
+7. TANG, J.; SUN, Q.; CHEN, Z. A new implementation of Dijkstra's algorithm on urban rail transit network. In: *International Conference on Civil, Transportation and Environment*. Atlantis Press, 2016. p. 507–513.
+8. VERMA, D. et al. Comparative study of various approaches of Dijkstra algorithm. In: *2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)*. IEEE, 2021. p. 328–336. *
 
 ---
 
 ## 4. Contribuição Individual dos Integrantes
-
-> **Importante:** cada integrante deve descrever, com suas próprias palavras, o que efetivamente fez em cada passo desta etapa. Contribuições genéricas como "ajudei em tudo" não serão aceitas. Use verbos de ação e seja específico (ex.: "executei a busca no IEEE Xplore com a string 2 e obtive 84 resultados; fiz a triagem por título/resumo de 40 desses").
->
-> Em cada integrante abaixo, a linha **"Registrado no documento"** traz apenas o que o próprio arquivo já comprova (autoria de strings, responsabilidade por passos). A linha **"Execução"** deve ser escrita por cada pessoa.
 
 ### Integrante 1 — Vinicius da Silva
 - **Passo(s) em que atuou:** Passos 1 e 5
@@ -229,27 +196,25 @@ Protocolo definido: (1) discussão em reunião de grupo; (2) persistindo a dúvi
 
 | Passo | Responsável(is) | % estimado de participação de cada um |
 |---|---|---|
-| 1. Pergunta e palavras-chave | Vinicius da Silva | PENDENTE |
-| 2. Strings de busca | Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira (strings 3 e 4 também por Murilo Santiago e Guilherme Da Macena) | PENDENTE |
-| 3. Bases de dados | Murilo Santiago | PENDENTE |
-| 4. Critérios de inclusão/exclusão | Guilherme Da Macena | PENDENTE |
-| 5. Execução das buscas | Vinicius da Silva; Gabriel Nascimento de Souza *(ver observação abaixo)* | PENDENTE |
-| 6. Triagem título/resumo | Lucas Marins de Souza Oliveira; Murilo Santiago | PENDENTE |
-| 7. Triagem texto completo | Guilherme Da Macena | PENDENTE |
+| 1. Pergunta e palavras-chave | Vinicius da Silva | 14.29% |
+| 2. Strings de busca | Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira (strings 3 e 4 também por Murilo Santiago e Guilherme Da Macena) | 14.29% |
+| 3. Bases de dados | Murilo Santiago | 14.29% |
+| 4. Critérios de inclusão/exclusão | Guilherme Da Macena | 14.29% |
+| 5. Execução das buscas | Lucas Marins de Souza Oliveira ; Gabriel Nascimento de Souza | 14.29% |
+| 6. Triagem título/resumo | Lucas Marins de Souza Oliveira; Murilo Santiago | 14.29% |
+| 7. Triagem texto completo | Guilherme Da Macena | 14.29% |
 
-*Observação: o Passo 3 atribui as buscas no IEEE Xplore/ACM a Lucas, mas este quadro atribui a execução (Passo 5) a Vinicius e Gabriel. O grupo deve confirmar quem realmente executou cada busca e deixar as duas seções consistentes.*
 
 ### 4.2 Quadro-resumo geral de participação na etapa
 
 | Integrante | % estimado de participação total nesta etapa |
 |---|---|
-| Vinicius da Silva | PENDENTE |
-| Gabriel Nascimento de Souza | PENDENTE |
-| Lucas Marins de Souza Oliveira | PENDENTE |
-| Murilo Santiago | PENDENTE |
-| Guilherme Da Macena | PENDENTE |
+| Vinicius da Silva | 20% |
+| Gabriel Nascimento de Souza | 20% |
+| Lucas Marins de Souza Oliveira | 20% |
+| Murilo Santiago | 20% |
+| Guilherme Da Macena | 20% |
 
-*A soma das porcentagens deve ser igual a 100%. Divergências de percepção sobre a participação devem ser discutidas em grupo antes do envio — o orientador pode solicitar esclarecimentos individuais em caso de disparidade relevante. Não use 20% para todos por padrão: registre a divisão real.*
 
 ---
 
