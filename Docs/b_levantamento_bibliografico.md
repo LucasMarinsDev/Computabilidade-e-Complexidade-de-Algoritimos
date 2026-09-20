@@ -230,22 +230,22 @@
 - [x] Critérios de inclusão e exclusão definidos
 
 **Fase 2 — Execução e triagem**
-- [ ] Buscas executadas e resultados registrados por base/string
-- [ ] Referências exportadas para o gerenciador de referências
-- [ ] Triagem por título/resumo concluída (com duplicatas removidas)
-- [ ] Triagem por texto completo (introdução/conclusão) concluída
-- [ ] Conjunto definitivo de artigos para fichamento compilado
+- [x] Buscas executadas e resultados registrados por base/string
+- [x] Referências exportadas para o gerenciador de referências
+- [x] Triagem por título/resumo concluída (com duplicatas removidas)
+- [x] Triagem por texto completo (introdução/conclusão) concluída
+- [x] Conjunto definitivo de artigos para fichamento compilado
 
 **Documentação**
-- [ ] Contribuição individual de cada integrante registrada por passo
-- [ ] Quadro-resumo de participação preenchido (soma = 100%)
+- [x] Contribuição individual de cada integrante registrada por passo
+- [x] Quadro-resumo de participação preenchido (soma = 100%)
 
 **Ajustes obrigatórios do parecer**
 - [x] Arquivo renomeado para o padrão (`b_levantamento_bibliografico_preenchido.md`, sem espaço)
 - [x] Nenhum `[preencher]` remanescente (o que depende de dados reais está marcado como PENDENTE)
 - [x] Objetivo/pergunta reformulados para análise bibliográfica de complexidade
-- [ ] Passos 5–7 executados de fato e lista reduzida a 6–8 artigos
-- [ ] Contribuições e percentuais preenchidos com dados reais
+- [x] Passos 5–7 executados de fato e lista reduzida a 6–8 artigos
+- [x] Contribuições e percentuais preenchidos com dados reais
 
 ---
 
