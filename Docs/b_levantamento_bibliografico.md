@@ -191,7 +191,7 @@
 - **Passo(s) em que atuou:** Passos 4 e 7
 - **Registrado no documento:** Elaborou a String de Busca 4, relacionada às comparações entre algoritmos, e participou da definição dos critérios de inclusão e exclusão.
 - **Execução (Passo 7):** Realizou a leitura completa dos artigos selecionados para a segunda filtragem, contribuindo para a aprovação e exclusão dos estudos conforme os critérios definidos.
-- **Tempo dedicado (aprox.):** 00:20 min
+- **Tempo dedicado (aprox.):** 02:00 h
 - **Evidência da contribuição:** `![Evidência da contribuição - Guilherme](../evidencias/evidencia-Guilherme.png)'
 
 ### 4.1 Quadro-resumo de participação por passo
