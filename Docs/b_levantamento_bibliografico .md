@@ -167,9 +167,9 @@
 ### Integrante 2 — Gabriel Nascimento de Souza
 - **Passo(s) em que atuou:** Passos 2 e 5
 - **Registrado no documento:** elaborou a string de busca 1 (IEEE Xplore; ACM); é o responsável pelas buscas no Scopus e no Portal CAPES (Passo 3).
-- **Execução (Passo 5):** Execução (Passo 5): Foram executadas as strings nas bases IEEE Xplore, ACM Digital Library, Scopus e Portal CAPES. Para cada busca, foram registrados a string utilizada, a data, o responsável pela execução e o número de resultados encontrados.
-- **Tempo dedicado (aprox.):**1h30 
-- **Evidência da contribuição:** `![Evidência da contribuição - Gabriel](../evidencias/evidencia-Gabriel2.png)'
+- **Execução (Passo 5):** PENDENTE — descrever base, string, data e nº de resultados.
+- **Tempo dedicado (aprox.):** PENDENTE
+- **Evidência da contribuição:** PENDENTE
 
 ### Integrante 3 — Lucas Marins de Souza Oliveira
 - **Passo(s) em que atuou:** Passos 2 e 6
