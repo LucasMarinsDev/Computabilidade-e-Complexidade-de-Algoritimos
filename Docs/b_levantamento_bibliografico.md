@@ -176,21 +176,23 @@
 - **Registrado no documento:** elaborou a string de busca 2 (Scopus); é o responsável pelas buscas no IEEE Xplore e na ACM (Passo 3).
 - **Execução (Passo 6):** PENDENTE — descrever quantos títulos/resumos triou e com que resultado.
 - **Tempo dedicado (aprox.):** PENDENTE
-- **Evidência da contribuição:** PENDENTE
+- **Evidência da contribuição:** `![Evidência da contribuição - Lucas](../evidencias/evidencia-Lucas2.png)'
+
 
 ### Integrante 4 — Murilo Santiago
 - **Passo(s) em que atuou:** Passos 3 e 6
 - **Registrado no documento:** elaborou a string de busca 3 (Portal CAPES); conduziu a escolha e a justificativa das bases de dados (Passo 3).
 - **Execução (Passo 6):** PENDENTE — descrever quantos títulos/resumos triou e com que resultado.
 - **Tempo dedicado (aprox.):** PENDENTE
-- **Evidência da contribuição:** PENDENTE
+- **Evidência da contribuição:** `![Evidência da contribuição - Murilo](../evidencias/evidencia-Murilo2.png)'
+
 
 ### Integrante 5 — Guilherme Da Macena
 - **Passo(s) em que atuou:** Passos 4 e 7
-- **Registrado no documento:** elaborou a string de busca 4 (comparações entre algoritmos); definiu os critérios de inclusão e exclusão (Passo 4).
-- **Execução (Passo 7):** PENDENTE — descrever quantos artigos leu na íntegra e quantos aprovou/excluiu.
-- **Tempo dedicado (aprox.):** PENDENTE
-- **Evidência da contribuição:** PENDENTE
+- **Registrado no documento:** Elaborou a String de Busca 4, relacionada às comparações entre algoritmos, e participou da definição dos critérios de inclusão e exclusão.
+- **Execução (Passo 7):** Realizou a leitura completa dos artigos selecionados para a segunda filtragem, contribuindo para a aprovação e exclusão dos estudos conforme os critérios definidos.
+- **Tempo dedicado (aprox.):** 00:20 min
+- **Evidência da contribuição:** `![Evidência da contribuição - Guilherme](../evidencias/evidencia-Guilherme.png)'
 
 ### 4.1 Quadro-resumo de participação por passo
 
