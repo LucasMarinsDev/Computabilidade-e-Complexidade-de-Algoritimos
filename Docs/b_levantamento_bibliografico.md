@@ -174,16 +174,16 @@
 ### Integrante 3 — Lucas Marins de Souza Oliveira
 - **Passo(s) em que atuou:** Passos 2 e 6
 - **Registrado no documento:** elaborou a string de busca 2 (Scopus); é o responsável pelas buscas no IEEE Xplore e na ACM (Passo 3).
-- **Execução (Passo 6):** PENDENTE — descrever quantos títulos/resumos triou e com que resultado.
-- **Tempo dedicado (aprox.):** PENDENTE
+- **Execução (Passo 6):As strings de busca foram executadas nas bases IEEE Xplore, ACM Digital Library, Scopus e Portal CAPES. Para cada busca, foram registrados a string utilizada, a data de execução, o responsável e o número de resultados encontrados. No Scopus, a consulta foi feita com os termos "Shortest Path Algorithm" e "Graph Theory", e a tela de consulta (print anexo) retornou 8 resultados na busca por fontes. As buscas no IEEE Xplore e na ACM (Passo 3) foram conduzidas por mim, e os totais de cada base foram anotados no registro de buscas
+- **Tempo dedicado (aprox.):1h30
 - **Evidência da contribuição:** `![Evidência da contribuição - Lucas](../evidencias/evidencia-Lucas2.png)'
 
 
 ### Integrante 4 — Murilo Santiago
 - **Passo(s) em que atuou:** Passos 3 e 6
 - **Registrado no documento:** elaborou a string de busca 3 (Portal CAPES); conduziu a escolha e a justificativa das bases de dados (Passo 3).
-- **Execução (Passo 6):** PENDENTE — descrever quantos títulos/resumos triou e com que resultado.
-- **Tempo dedicado (aprox.):** PENDENTE
+- **Execução (Passo 6):As strings de busca foram executadas nas bases IEEE Xplore, ACM Digital Library, Scopus e Portal CAPES. Para cada busca, foram registrados a string utilizada, a data de execução, o responsável e o número de resultados encontrados.
+- **Tempo dedicado (aprox.):1h
 - **Evidência da contribuição:** `![Evidência da contribuição - Murilo](../evidencias/evidencia-Murilo2.png)'
 
 
