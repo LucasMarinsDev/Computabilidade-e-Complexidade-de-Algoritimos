@@ -159,10 +159,10 @@
 
 ### Integrante 1 — Vinicius da Silva
 - **Passo(s) em que atuou:** Passos 1 e 5
-- **Registrado no documento:** elaborou a pergunta de trabalho e a tabela de conceitos-chave e sinônimos (Passo 1).
-- **Execução (Passo 5):** PENDENTE — descrever base, string, data e nº de resultados das buscas que executou.
-- **Tempo dedicado (aprox.):** PENDENTE
-- **Evidência da contribuição:** PENDENTE — link ou descrição (print da busca, exportação BibTeX etc.)
+- **Registrado no documento:** Elaborou a pergunta de trabalho e a tabela de conceitos-chave e sinônimos (Passo 1).
+- **Execução (Passo 5):** Realizada pesquisa na base de dados científica MDPI via web/link (URL: `https://www.mdpi.com/2076-3417/15/8/4162`), na qual foram obtidos 5 resultados de artigos em língua inglesa. Destaca-se 1 resultado principal referente ao estudo *"Roteamento Otimizado em Redes Viárias Urbanas: Uma Abordagem Baseada em Grafos Utilizando o Algoritmo de Dijkstra"*, focado na eficiência e complexidade computacional do algoritmo aplicado a grafos.
+- **Tempo dedicado (aprox.):** 1h30min
+- **Evidência da contribuição:** Imagem anexada no repositório no caminho `evidencias/evidencia-Vinicius.png` (registro do envio e da consulta do artigo).
 
 ### Integrante 2 — Gabriel Nascimento de Souza
 - **Passo(s) em que atuou:** Passos 2 e 5
