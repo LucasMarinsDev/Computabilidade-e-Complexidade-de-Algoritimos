@@ -86,7 +86,7 @@ Teoria dos Grafos, com foco em algoritmos clássicos de caminho mínimo e explor
 ### Integrante 2 — Lucas Marins de Souza Oliveira
 - **O que fez nesta etapa:** `[preenchimento / pesquisa]`
 - **Tempo dedicado (aprox.):** `[2h]`
-- **Evidência da contribuição:** `![Evidência da contribuição - Lucas](../evidencias/evidencia-Lucas.png)'
+- **Evidência da contribuição:** `![Evidência da contribuição - Lucas](../evidencias/evidencia-Lucas.png.png)'
 
 ### Integrante 3 — Vinicius Da Silva
 - **O que fez nesta etapa:** `[pesquisa]`
