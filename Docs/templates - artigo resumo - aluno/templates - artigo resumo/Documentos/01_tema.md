@@ -50,8 +50,4 @@ Tema delimitado e justificativa.
  
 | Integrante | Atividade realizada |
 |---|---|
-| Gabriel Nascimento de Souza | Preenchimento dos templates da etapa e pesquisa de referências (tempo aprox.: 2h) |
-| Lucas Marins de Souza Oliveira | Preenchimento dos templates da etapa e pesquisa de referências (tempo aprox.: 2h) |
-| Vinicius da Silva | Pesquisa e levantamento de referências bibliográficas (tempo aprox.: 30min) |
-| Murilo Santiago | Pesquisa e levantamento de referências bibliográficas (tempo aprox.: 30min) |
-| Guilherme Da Macena | N/A (sem contribuição registrada nesta etapa) |
+| Gabriel Nascimento de Souza | Preenchimento dos templates da etapa e pesquisa de referências (tempo aprox.: 1h) |
