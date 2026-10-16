@@ -48,8 +48,8 @@ Escreva a primeira versão completa do artigo seguindo a estrutura abaixo.
 
 ## Checklist
 
-- [x] A introdução termina com o objetivo.
-- [x] A metodologia descreve o processo realmente realizado.
-- [x] A revisão compara os artigos.
-- [x] A conclusão responde ao problema.
-- [x] O resumo representa o texto completo.
+- [ ] A introdução termina com o objetivo.
+- [ ] A metodologia descreve o processo realmente realizado.
+- [ ] A revisão compara os artigos.
+- [ ] A conclusão responde ao problema.
+- [ ] O resumo representa o texto completo.
