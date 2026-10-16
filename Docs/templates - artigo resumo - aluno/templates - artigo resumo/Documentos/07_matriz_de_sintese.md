@@ -51,7 +51,7 @@ Os artigos selecionados convergem em tratar o Dijkstra como algoritmo de referê
 
 ## Checklist
 
-- [ ] Os artigos foram agrupados por ideias.
-- [ ] Há comparações entre estudos.
-- [ ] As divergências foram registradas.
-- [ ] As lacunas são específicas e sustentadas pelas leituras.
+- [x] Os artigos foram agrupados por ideias.
+- [x] Há comparações entre estudos.
+- [x] As divergências foram registradas.
+- [x] As lacunas são específicas e sustentadas pelas leituras.
