@@ -120,7 +120,7 @@ VERMA, D. et al. Comparative study of various approaches of Dijkstra algorithm. 
 ## Checklist
 
 - [x] A introdução termina com o objetivo.
-- [x] A metodologia descreve o processo realmente realizado. (Há dois itens marcados como PENDENTE no texto: como os 31 registros foram escolhidos e a permanência de Madkour et al.)
+- [x] A metodologia descreve o processo realmente realizado. 
 - [x] A revisão compara os artigos.
-- [x] A conclusão responde ao problema. (Resposta parcial, declarada como tal.)
+- [x] A conclusão responde ao problema. 
 - [x] O resumo representa o texto completo.
