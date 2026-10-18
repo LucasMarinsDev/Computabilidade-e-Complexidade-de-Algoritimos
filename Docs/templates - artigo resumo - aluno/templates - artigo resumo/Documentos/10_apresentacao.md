@@ -9,7 +9,7 @@ Prepare uma apresentação clara do artigo e organize a participação do grupo.
 - Título do artigo: Algoritmo de Dijkstra, otimizações e complexidade computacional: revisão narrativa com foco em roteamento de emergência
 - Evento ou disciplina: Teoria dos Grafos (Ciência da Computação), projeto Atlas Global, Grupo 10
 - Data: A DEFINIR  `[dd/mm/aaaa]`
-- Tempo disponível: A DEFINIR . O roteiro abaixo usa 15 minutos como base e deve ser ajustado, em proporção, ao tempo real.
+- Tempo disponível: A DEFINIR . O roteiro abaixo usa 15 minutos como base.
 - Integrantes: Gabriel Nascimento de Souza; Lucas Marins de Souza Oliveira; Vinicius da Silva; Murilo Santiago; Guilherme Da Macena
 
 ## Estrutura
