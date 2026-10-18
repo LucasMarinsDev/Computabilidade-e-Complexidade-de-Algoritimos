@@ -26,7 +26,7 @@ A distribuição abaixo é uma sugestão, com base no que cada integrante fez na
 
 Total: 15 horas.
 
-### Sugestão de slides (pouco texto)
+### Sugestão de slides 
 
 1. Título e integrantes.
 2. O problema: caminho de menor custo e a importância em busca e resgate.
